@@ -1,6 +1,6 @@
 {
  "date": "2026-08-30",
- "generated_at": "2026-08-30T07:44:32.734527+00:00",
+ "generated_at": "2026-08-30T07:50:28.190738+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
@@ -18,36 +18,36 @@
   },
   {
    "keyword": "Qwen/Qwen3.8-Flash-Next",
-   "score": 4312,
-   "desc": "52,341 downloads · 4312 likes",
+   "score": 4315,
+   "desc": "52,341 downloads · 4315 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
    "source": "huggingface"
   },
   {
    "keyword": "unsloth/Qwen3.8-27B-GGUF",
-   "score": 3191,
-   "desc": "8,363,481 downloads · 3191 likes",
+   "score": 3192,
+   "desc": "8,363,481 downloads · 3192 likes",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "Lightricks/LTX-2.5",
-   "score": 2161,
-   "desc": "1,044,661 downloads · 2161 likes",
+   "score": 2162,
+   "desc": "1,044,661 downloads · 2162 likes",
    "url": "https://huggingface.co/Lightricks/LTX-2.5",
    "source": "huggingface"
   },
   {
    "keyword": "zai-org/GLM-5.3-Flash",
-   "score": 1641,
-   "desc": "189,793 downloads · 1641 likes",
+   "score": 1643,
+   "desc": "189,793 downloads · 1643 likes",
    "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
    "source": "huggingface"
   },
   {
    "keyword": "zai-org/GLM-5.3",
-   "score": 1295,
-   "desc": "8,804 downloads · 1295 likes",
+   "score": 1296,
+   "desc": "8,804 downloads · 1296 likes",
    "url": "https://huggingface.co/zai-org/GLM-5.3",
    "source": "huggingface"
   },
@@ -284,10 +284,10 @@
  ],
  "products": [
   {
-   "keyword": "Topview Motion Studio",
+   "keyword": "Sayscroll",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/topview-ai",
+   "url": "https://www.producthunt.com/products/sayscroll-ai-teleprompter",
    "source": "producthunt"
   },
   {
@@ -298,10 +298,10 @@
    "source": "producthunt"
   },
   {
-   "keyword": "Sayscroll",
+   "keyword": "Topview Motion Studio",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/sayscroll-ai-teleprompter",
+   "url": "https://www.producthunt.com/products/topview-ai",
    "source": "producthunt"
   }
  ],
@@ -566,7 +566,7 @@
    "score": 0
   },
   {
-   "word": "Topview Motion Studio",
+   "word": "Sayscroll",
    "count": 1,
    "sources": [
     "PH"
@@ -584,7 +584,7 @@
    "score": 0
   },
   {
-   "word": "Sayscroll",
+   "word": "Topview Motion Studio",
    "count": 1,
    "sources": [
     "PH"
