@@ -3,115 +3,279 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 热词 · 2026-08-30</title>
+<title>AI 热词日报 · 2026-08-30</title>
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <style>
   :root {
-    --bg: #0f1117; --card: #1a1d27; --border: #2a2e3d;
-    --text: #e4e6eb; --muted: #9aa0ab; --accent: #7c5cff; --hot: #ff4757;
+    --bg: #f2f5fa;
+    --surface: #ffffff;
+    --surface-muted: #f3f6fb;
+    --ink: #24324a;
+    --muted: #8fa1ba;
+    --faint: #aeb9c9;
+    --line: #e2e9f2;
+    --accent: #5158f4;
+    --accent-soft: #eef0ff;
+    --hot: #f39a24;
+    --hot-soft: #fff2df;
+    --teal: #08ad83;
+    --shadow: 0 8px 24px rgba(62, 87, 125, .08);
   }
   * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:var(--bg); color:var(--text); font-family:-apple-system,'Segoe UI',Roboto,sans-serif; }
-  .wrap { max-width:1100px; margin:0 auto; padding:24px 16px 60px; }
-  header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:24px; }
-  h1 { font-size:28px; } h1 span { color:var(--accent); }
-  .date { color:var(--muted); font-size:14px; }
-  .grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
-  @media(max-width:800px) { .grid { grid-template-columns:1fr; } }
-  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; }
-  .card h2 { font-size:16px; margin-bottom:12px; display:flex; align-items:center; gap:6px; }
-  .card h2 .count { color:var(--muted); font-size:12px; font-weight:normal; }
-  .item { padding:8px 0; border-bottom:1px solid var(--border); display:flex; gap:10px; align-items:flex-start; }
-  .item:last-child { border-bottom:none; }
-  .rank { color:var(--muted); font-weight:bold; min-width:20px; }
-  .item .name { flex:1; }
-  .item .name a { color:var(--text); text-decoration:none; }
+  html { background:var(--bg); }
+  body {
+    min-width:320px;
+    background:var(--bg);
+    color:var(--ink);
+    overflow-x:hidden;
+    font-family: "Avenir Next", "PingFang SC", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color:inherit; }
+  .wrap { --gutter:20px; max-width:1320px; margin:0 auto; padding:0 var(--gutter) 64px; }
+  .masthead { position:relative; width:100vw; margin-left:calc(50% - 50vw); display:flex; justify-content:space-between; gap:24px; align-items:center; padding:18px max(var(--gutter), calc((100vw - 1280px) / 2)); background:var(--surface); border-bottom:1px solid var(--line); box-shadow:0 2px 10px rgba(62, 87, 125, .04); }
+  .brand-kicker { color:var(--accent); font-size:10px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; }
+  h1 { margin-top:4px; font-size:22px; line-height:1.1; letter-spacing:-.02em; font-weight:800; }
+  h1 span { color:var(--accent); }
+  .brand-subtitle { margin-top:4px; color:var(--muted); font-size:12px; }
+  .mast-meta { display:flex; align-items:center; gap:12px; color:var(--muted); font-size:12px; white-space:nowrap; }
+  .live-dot { width:8px; height:8px; border-radius:50%; background:var(--teal); box-shadow:0 0 0 4px #dcf4ed; }
+  .status-pill { padding:8px 12px; border:1px solid var(--line); border-radius:10px; background:var(--surface-muted); color:var(--ink); font-weight:700; }
+  .tabbar { display:inline-flex; gap:4px; margin-top:28px; padding:5px; border:1px solid var(--line); border-radius:16px; background:var(--surface); box-shadow:var(--shadow); }
+  .tab { display:inline-flex; align-items:center; min-height:34px; padding:0 16px; border-radius:11px; color:var(--muted); font-size:13px; font-weight:700; text-decoration:none; transition:background-color .2s, color .2s, box-shadow .2s; }
+  .tab:hover { color:var(--ink); background:var(--surface-muted); }
+  .tab.active { background:var(--ink); color:#fff; box-shadow:0 4px 10px rgba(36, 50, 74, .18); }
+  .dashboard-intro { display:flex; justify-content:space-between; align-items:flex-end; gap:16px; margin-top:28px; }
+  .dashboard-intro h2 { font-size:24px; line-height:1.2; letter-spacing:-.02em; }
+  .dashboard-intro p { max-width:520px; color:var(--muted); font-size:13px; line-height:1.6; text-align:right; }
+  .summary-grid { display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:16px; margin-top:16px; }
+  .metric-card { min-width:0; padding:20px 22px; border:1px solid var(--line); border-radius:16px; background:var(--surface); box-shadow:var(--shadow); }
+  .metric-label { color:var(--muted); font-size:12px; font-weight:700; }
+  .metric-row { display:flex; align-items:flex-end; justify-content:space-between; gap:8px; margin-top:13px; }
+  .metric-value { color:var(--ink); font-size:36px; line-height:.95; letter-spacing:-.04em; }
+  .metric-value.primary { color:var(--accent); }
+  .metric-value.hot { color:var(--hot); }
+  .metric-value.success { color:var(--teal); }
+  .metric-change { color:var(--teal); font-size:12px; font-weight:800; white-space:nowrap; overflow-wrap:anywhere; }
+  .metric-note { margin-top:14px; color:var(--muted); font-size:11px; }
+  .section { margin-top:26px; }
+  .section-head { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:11px; }
+  .section-title { display:flex; align-items:center; gap:9px; font-size:14px; letter-spacing:.03em; font-weight:800; }
+  .section-title::before { content:""; width:8px; height:8px; border-radius:50%; background:var(--accent); box-shadow:0 0 0 4px var(--accent-soft); }
+  .section-note { color:var(--muted); font-size:12px; }
+  .keyword-panel { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:18px 20px 20px; box-shadow:var(--shadow); }
+  .keyword-intro { color:var(--muted); font-size:12px; margin-bottom:12px; }
+  .kwbox { display:flex; flex-wrap:wrap; gap:8px; }
+  .kw { display:inline-flex; align-items:center; gap:8px; padding:8px 11px; border:1px solid var(--line); border-radius:3px; background:var(--surface); color:var(--ink); font-size:13px; transition:background-color .2s, border-color .2s, transform .2s; }
+  .kw:hover { background:var(--accent-soft); border-color:#c7c7fb; transform:translateY(-1px); }
+  .kw b { color:var(--hot); font-size:12px; }
+  .kw-source { color:var(--faint); font-size:10px; }
+  .tag { display:inline-flex; align-items:center; background:var(--hot-soft); color:var(--hot); font-size:10px; line-height:1; padding:5px 7px; border-radius:6px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; }
+  .content-grid { display:grid; grid-template-columns:repeat(12, minmax(0, 1fr)); gap:20px; margin-top:24px; }
+  .card { min-width:0; background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:var(--shadow); }
+  .card h2 { display:flex; align-items:center; gap:8px; margin-bottom:16px; font-size:16px; line-height:1.2; letter-spacing:-.01em; }
+  .card h2 .count { color:var(--muted); font-size:11px; font-weight:600; }
+  .card h2 .tag { margin-left:auto; }
+  .span-6 { grid-column:span 6; }
+  .span-8 { grid-column:span 8; }
+  .span-4 { grid-column:span 4; }
+  .span-12 { grid-column:1/-1; }
+  .item { display:flex; gap:12px; align-items:flex-start; padding:12px 0; border-bottom:1px solid var(--line); }
+  .item:first-child { padding-top:0; }
+  .item:last-child { border-bottom:none; padding-bottom:0; }
+  .rank { flex:0 0 24px; height:24px; display:grid; place-items:center; border-radius:50%; background:var(--surface-muted); color:var(--muted); font-size:11px; font-weight:800; }
+  .item:first-child .rank { background:var(--accent); color:#fff; }
+  .item .name { min-width:0; flex:1; }
+  .item .name a { display:block; color:var(--ink); text-decoration:none; font-size:13px; line-height:1.45; overflow-wrap:anywhere; transition:color .2s; }
   .item .name a:hover { color:var(--accent); }
-  .item .meta { color:var(--muted); font-size:12px; margin-top:2px; }
-  .tag { display:inline-block; background:rgba(124,92,255,.15); color:var(--accent);
-         font-size:11px; padding:1px 8px; border-radius:10px; margin-right:6px; }
-  .full { grid-column:1/-1; }
+  .item .meta { margin-top:4px; color:var(--muted); font-size:11px; line-height:1.45; overflow-wrap:anywhere; }
+  .robot-card { background:var(--surface); }
+  .robot-card .section-title::before { background:var(--teal); box-shadow:0 0 0 4px #dcf4ed; }
   .chart { height:300px; }
-  .footer { margin-top:24px; color:var(--muted); font-size:12px; text-align:center; }
-  .kw { display:inline-block; margin:4px; padding:6px 14px; background:var(--card);
-        border:1px solid var(--border); border-radius:20px; font-size:14px; }
-  .kw b { color:var(--hot); }
+  .footer { margin-top:30px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:11px; line-height:1.6; text-align:center; }
+  @media(max-width:860px) {
+    .wrap { --gutter:18px; padding:0 var(--gutter) 48px; }
+    .summary-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
+    .span-6, .span-8, .span-4 { grid-column:1/-1; }
+  }
+  @media(max-width:560px) {
+    .wrap { --gutter:14px; padding:0 var(--gutter) 40px; }
+    .masthead { align-items:flex-start; flex-direction:column; gap:12px; padding-bottom:18px; }
+    .mast-meta { white-space:normal; }
+    .tabbar { display:flex; width:100%; overflow-x:auto; }
+    .tab { flex:1 0 auto; justify-content:center; padding:0 12px; }
+    .dashboard-intro { align-items:flex-start; flex-direction:column; margin-top:22px; }
+    .dashboard-intro p { text-align:left; }
+    .summary-grid { gap:10px; }
+    .metric-card { padding:16px; border-radius:13px; }
+    .metric-value { font-size:30px; }
+    .metric-change { max-width:78px; white-space:normal; text-align:right; line-height:1.25; word-break:break-word; }
+    .card, .keyword-panel { padding:16px; border-radius:13px; }
+    .content-grid { gap:14px; margin-top:20px; }
+  }
+  @media(prefers-reduced-motion: reduce) {
+    *, *::before, *::after { scroll-behavior:auto !important; transition-duration:.01ms !important; animation-duration:.01ms !important; }
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>🤖 AI <span>热词</span>日报</h1>
-    <div class="date">2026-08-30 · 每天自动更新</div>
+  <header class="masthead">
+    <div>
+      <div class="brand-kicker">AI INTELLIGENCE DESK</div>
+      <h1>AI <span>热词</span>日报</h1>
+      <div class="brand-subtitle">模型、研究与社区的每日趋势面板</div>
+    </div>
+    <div class="mast-meta"><span class="live-dot" aria-hidden="true"></span><span id="reportDate">2026-08-30</span><span class="status-pill">每日 08:00 更新</span></div>
   </header>
 
-  <div class="card full" style="margin-bottom:16px;">
-    <h2>🔥 今日 AI 热词 TOP 15 <span class="count">(跨源词频统计)</span></h2>
-    <div id="kwbox"></div>
-  </div>
+  <nav class="tabbar" aria-label="日报分区">
+    <a class="tab active" href="#overview">今日概览</a>
+    <a class="tab" href="#model-title">模型热度</a>
+    <a class="tab" href="#paper-title">研究前沿</a>
+    <a class="tab" href="#discussion-title">社区与产品</a>
+  </nav>
 
-  <div class="grid">
-    <div class="card">
-      <h2>🏆 趋势模型 <span class="count">14</span></h2>
+  <section class="dashboard-intro" id="overview" aria-labelledby="hero-title">
+    <div>
+      <div class="brand-kicker">TODAY'S SIGNAL</div>
+      <h2 id="hero-title">今日 AI 观察</h2>
+    </div>
+    <p>把分散在开源社区、研究论文与产品发布里的信号，整理成一份可以快速浏览的每日情报。</p>
+  </section>
+
+  <section class="summary-grid" aria-label="今日数据概览">
+    <article class="metric-card">
+      <div class="metric-label">跨源热词</div>
+      <div class="metric-row"><strong class="metric-value primary" id="metricKeywords">15</strong><span class="metric-change">↗ 今日更新</span></div>
+      <div class="metric-note">覆盖模型、论文、社区与产品</div>
+    </article>
+    <article class="metric-card">
+      <div class="metric-label">趋势模型</div>
+      <div class="metric-row"><strong class="metric-value" id="metricModels">14</strong><span class="metric-change">↗ HF</span></div>
+      <div class="metric-note">按点赞与下载热度排序</div>
+    </article>
+    <article class="metric-card">
+      <div class="metric-label">最新论文</div>
+      <div class="metric-row"><strong class="metric-value hot" id="metricPapers">12</strong><span class="metric-change">↗ arXiv</span></div>
+      <div class="metric-note">关注 Agent、VLA 与模型安全</div>
+    </article>
+    <article class="metric-card">
+      <div class="metric-label">开发者仓库</div>
+      <div class="metric-row"><strong class="metric-value success" id="metricRepos">11</strong><span class="metric-change">↗ GitHub</span></div>
+      <div class="metric-note">今日开源项目趋势</div>
+    </article>
+  </section>
+
+  <section class="section" aria-labelledby="keyword-title">
+    <div class="section-head"><h2 class="section-title" id="keyword-title">今日热词</h2><span class="section-note">跨源词频统计 · TOP 15</span></div>
+    <div class="keyword-panel">
+      <p class="keyword-intro">热词按出现来源与频次排序，帮助你快速定位今天最活跃的主题。</p>
+      <div id="kwbox" class="kwbox"></div>
+    </div>
+  </section>
+
+  <main class="content-grid">
+    <section class="card span-6" aria-labelledby="model-title">
+      <h2 id="model-title">趋势模型 <span class="count" id="modelCount">14 个</span></h2>
       <div id="modelList"></div>
-    </div>
+    </section>
 
-    <div class="card">
-      <h2>📄 最新论文 <span class="count">12</span></h2>
+    <section class="card span-6" aria-labelledby="paper-title">
+      <h2 id="paper-title">最新论文 <span class="count" id="paperCount">12 篇</span></h2>
       <div id="paperList"></div>
-    </div>
+    </section>
 
-    <div class="card full">
-      <h2>🦾 具身机器人 <span class="count">12</span> <span class="tag">Embodied AI</span></h2>
+    <section class="card robot-card span-12" aria-labelledby="robot-title">
+      <h2 id="robot-title"><span class="section-title">具身机器人</span> <span class="count" id="robotCount">12 条</span> <span class="tag">Embodied AI</span></h2>
       <div id="robotList"></div>
-    </div>
+    </section>
 
-    <div class="card">
-      <h2>🛠 AI 新产品 <span class="count">3</span></h2>
+    <section class="card span-4" aria-labelledby="product-title">
+      <h2 id="product-title">AI 新产品 <span class="count" id="productCount">3 个</span></h2>
       <div id="productList"></div>
-    </div>
+    </section>
 
-    <div class="card">
-      <h2>💬 社区讨论 <span class="count">10</span></h2>
+    <section class="card span-4" aria-labelledby="discussion-title">
+      <h2 id="discussion-title">社区讨论 <span class="count" id="discussionCount">10 条</span></h2>
       <div id="discussionList"></div>
-    </div>
+    </section>
 
-    <div class="card">
-      <h2>📦 开发者仓库 <span class="count">11</span></h2>
+    <section class="card span-4" aria-labelledby="repo-title">
+      <h2 id="repo-title">开发者仓库 <span class="count" id="repoCount">11 个</span></h2>
       <div id="repoList"></div>
-    </div>
+    </section>
 
-    <div class="card">
-      <h2>📊 模型热度分布</h2>
+    <section class="card span-12" aria-labelledby="chart-title">
+      <h2 id="chart-title">模型热度分布 <span class="count">按点赞数</span></h2>
       <div id="chart" class="chart"></div>
-    </div>
-  </div>
+    </section>
+  </main>
 
-  <div class="footer">数据来源: HuggingFace · arXiv · Product Hunt · Hacker News · GitHub | 每天 8:00 自动更新</div>
+  <footer class="footer">数据来源：HuggingFace · arXiv · Product Hunt · Hacker News · GitHub · 每天 08:00 自动更新</footer>
 </div>
 
 <script>
 const DATA = {"date": "2026-08-30", "generated_at": "2026-08-30T07:56:52.993254+00:00", "models": [{"keyword": "Qwen/Qwen3.8-27B", "score": 13283, "desc": "4,028,839 downloads · 13283 likes", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "source": "huggingface"}, {"keyword": "MiniMaxAI/MiniMax-H3", "score": 4631, "desc": "5,018,833 downloads · 4631 likes", "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3", "source": "huggingface"}, {"keyword": "Qwen/Qwen3.8-Flash-Next", "score": 4316, "desc": "52,341 downloads · 4316 likes", "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next", "source": "huggingface"}, {"keyword": "unsloth/Qwen3.8-27B-GGUF", "score": 3192, "desc": "8,363,481 downloads · 3192 likes", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "source": "huggingface"}, {"keyword": "Lightricks/LTX-2.5", "score": 2162, "desc": "1,044,661 downloads · 2162 likes", "url": "https://huggingface.co/Lightricks/LTX-2.5", "source": "huggingface"}, {"keyword": "zai-org/GLM-5.3-Flash", "score": 1643, "desc": "189,793 downloads · 1643 likes", "url": "https://huggingface.co/zai-org/GLM-5.3-Flash", "source": "huggingface"}, {"keyword": "zai-org/GLM-5.3", "score": 1296, "desc": "8,804 downloads · 1296 likes", "url": "https://huggingface.co/zai-org/GLM-5.3", "source": "huggingface"}, {"keyword": "orcarouter/Qwen3.8-27B-Uncensored-FP8", "score": 1264, "desc": "290,216 downloads · 1264 likes", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8", "source": "huggingface"}, {"keyword": "orcarouter/Qwen3.8-27B-Uncensored-MLX", "score": 1220, "desc": "97,508 downloads · 1220 likes", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX", "source": "huggingface"}, {"keyword": "OBLITERATUS/Qwen3.8-27B-OBLITERATED", "score": 929, "desc": "645,554 downloads · 929 likes", "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED", "source": "huggingface"}, {"keyword": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "score": 756, "desc": "1,061,687 downloads · 756 likes", "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "source": "huggingface"}, {"keyword": "unsloth/Qwen3.8-Flash-Next-GGUF", "score": 578, "desc": "188,061 downloads · 578 likes", "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF", "source": "huggingface"}, {"keyword": "tencent/Hy4-preview", "score": 291, "desc": "1,394 downloads · 291 likes", "url": "https://huggingface.co/tencent/Hy4-preview", "source": "huggingface"}, {"keyword": "unsloth/GLM-5.3-Flash-GGUF", "score": 276, "desc": "27,288 downloads · 276 likes", "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF", "source": "huggingface"}], "datasets": [{"keyword": "📊 markov-ai/cad-1000-hours", "score": 223, "desc": "Trending Dataset", "url": "https://huggingface.co/datasets/markov-ai/cad-1000-hours", "source": "huggingface"}], "papers": [{"keyword": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution", "score": 0, "desc": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agen", "url": "http://arxiv.org/abs/2608.27454v1", "source": "arxiv"}, {"keyword": "SWE-Prime: Fewer Trajectories, Better Performance", "score": 0, "desc": "To improve large language models' ability to resolve real-world software issues, prior work has focu", "url": "http://arxiv.org/abs/2608.27449v1", "source": "arxiv"}, {"keyword": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench", "score": 0, "desc": "In real-world software development, code review typically involves iterative interactions between de", "url": "http://arxiv.org/abs/2608.27442v1", "source": "arxiv"}, {"keyword": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution", "score": 0, "desc": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks ca", "url": "http://arxiv.org/abs/2608.27439v1", "source": "arxiv"}, {"keyword": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation", "score": 0, "desc": "Chemical reactions are fundamentally transformations in electron space, yet most machine learning ap", "url": "http://arxiv.org/abs/2608.27429v1", "source": "arxiv"}, {"keyword": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit", "score": 0, "desc": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone", "url": "http://arxiv.org/abs/2608.27427v1", "source": "arxiv"}, {"keyword": "Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners", "score": 0, "desc": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine-", "url": "http://arxiv.org/abs/2608.27424v1", "source": "arxiv"}, {"keyword": "Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study", "score": 0, "desc": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, ", "url": "http://arxiv.org/abs/2608.27421v1", "source": "arxiv"}, {"keyword": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators", "score": 0, "desc": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodime", "url": "http://arxiv.org/abs/2608.27406v1", "source": "arxiv"}, {"keyword": "How Language Models Organize and Structure Moral Knowledge", "score": 0, "desc": "How do large language models (LLMs) organize moral knowledge? Models detect moral content broadly, b", "url": "http://arxiv.org/abs/2608.27402v1", "source": "arxiv"}, {"keyword": "Making Clinical Language Models Auditable: Concept-Guided Fine-Tuning for Robust Prediction", "score": 0, "desc": "Clinical language models can achieve strong in-hospital accuracy yet fail under deployment shifts be", "url": "http://arxiv.org/abs/2608.27397v1", "source": "arxiv"}, {"keyword": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics", "score": 0, "desc": "Video carries the temporal structure of the physical world, yet learning representations from it has", "url": "http://arxiv.org/abs/2608.27395v1", "source": "arxiv"}], "robotics": [{"keyword": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators", "score": 0, "desc": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodime", "url": "http://arxiv.org/abs/2608.27406v1", "source": "robotics"}, {"keyword": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference", "score": 0, "desc": "Vision-Language-Action (VLA) models are increasingly promising for robotic manipulation, yet their r", "url": "http://arxiv.org/abs/2608.27384v1", "source": "robotics"}, {"keyword": "Embodied Scene Rearrangement Planning", "score": 0, "desc": "This paper introduces Embodied Scene Rearrangement Planning (ESRP), a novel task requiring embodied ", "url": "http://arxiv.org/abs/2608.27371v1", "source": "robotics"}, {"keyword": "TADP: Task-Aware Deformable Prediction for Single-Stage 3D Object Detection", "score": 0, "desc": "Most single-stage 3D object detectors complete different tasks with the same extracted features. Nev", "url": "http://arxiv.org/abs/2608.27282v1", "source": "robotics"}, {"keyword": "Marine Autonomous Vehicle Fleet Scheduling to Maximise Scientific Impact", "score": 0, "desc": "The marine science community increasingly relies on Marine Autonomous Vehicles (MAVs) to collect the", "url": "http://arxiv.org/abs/2608.27271v1", "source": "robotics"}, {"keyword": "STEP: State-Aware Task Estimation and Planning with Multi-Modal LLMs for Human-Robot Collaboration", "score": 0, "desc": "Effective human-robot collaboration in industrial settings requires robots to understand human inten", "url": "http://arxiv.org/abs/2608.27225v1", "source": "robotics"}, {"keyword": "Tensegrity Continuum Robots Enable Task-Adaptive Morphologies for Cooperative Behaviors", "score": 0, "desc": "Robots that can change their morphologies and behaviors for different tasks and environments hold gr", "url": "http://arxiv.org/abs/2608.27221v1", "source": "robotics"}, {"keyword": "Task-space model-based control of pneumatic soft actuators", "score": 0, "desc": "Soft actuators enable dexterous and compliant interaction, but closed-loop task-space control remain", "url": "http://arxiv.org/abs/2608.27186v1", "source": "robotics"}, {"keyword": "Planning a Shared Modular Fixture Layout Across Robotic Disassembly Stages", "score": 0, "desc": "Stable support remains challenging in robotic disassembly of irregularly shaped products. As compone", "url": "http://arxiv.org/abs/2608.27151v1", "source": "robotics"}, {"keyword": "Active sensing to characterize the heterogeneity of plant stress", "score": 0, "desc": "While most phenotyping platforms rely primarily on image-based measurements, advanced plant characte", "url": "http://arxiv.org/abs/2608.27088v1", "source": "robotics"}, {"keyword": "Pass the Bucket: Efficient, Robust, Local Load Balancing for Teams of Heterogeneous Robots", "score": 0, "desc": "We study the problem of decentralized, self-organized task sharing for a swarm of heterogeneous robo", "url": "http://arxiv.org/abs/2608.27085v1", "source": "robotics"}, {"keyword": "GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation", "score": 0, "desc": "Pretrained vision-language-action (VLA) policies provide strong priors for robot manipulation, yet a", "url": "http://arxiv.org/abs/2608.27079v1", "source": "robotics"}], "products": [{"keyword": "Topview Motion Studio", "score": 0, "desc": "", "url": "https://www.producthunt.com/products/topview-ai", "source": "producthunt"}, {"keyword": "Superagent", "score": 0, "desc": "", "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents", "source": "producthunt"}, {"keyword": "Sayscroll", "score": 0, "desc": "", "url": "https://www.producthunt.com/products/sayscroll-ai-teleprompter", "source": "producthunt"}], "discussions": [{"keyword": "Don't post generated/AI-edited comments. HN is for conversation between humans", "score": 4229, "desc": "4229 pts · 1668 comments", "url": "https://news.ycombinator.com/newsguidelines.html#generated", "source": "hn_ai"}, {"keyword": "Airfoil", "score": 2544, "desc": "2544 pts · 296 comments", "url": "https://ciechanow.ski/airfoil/", "source": "hn_ai"}, {"keyword": "Open source AI is the path forward", "score": 2360, "desc": "2360 pts · 887 comments", "url": "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/", "source": "hn_ai"}, {"keyword": "My AI skeptic friends are all nuts", "score": 2356, "desc": "2356 pts · 2826 comments", "url": "https://fly.io/blog/youre-all-nuts/", "source": "hn_ai"}, {"keyword": "An AI agent published a hit piece on me", "score": 2346, "desc": "2346 pts · 951 comments", "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/", "source": "hn_ai"}, {"keyword": "Gemini AI", "score": 2135, "desc": "2135 pts · 1602 comments", "url": "https://deepmind.google/technologies/gemini/", "source": "hn_ai"}, {"keyword": "I believe there are entire companies right now under AI psychosis", "score": 2105, "desc": "2105 pts · 1272 comments", "url": "https://twitter.com/mitchellh/status/2055380239711457578", "source": "hn_ai"}, {"keyword": "IDF killed Gaza aid workers at point blank range in 2025 massacre: Report", "score": 2084, "desc": "2084 pts · 997 comments", "url": "https://www.dropsitenews.com/p/israeli-soldiers-tel-sultan-gaza-red-crescent-civil-defense-massacre-report-forensic-architecture-earshot", "source": "hn_ai"}, {"keyword": "I'm Tired of Talking to AI", "score": 2013, "desc": "2013 pts · 950 comments", "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/", "source": "hn_ai"}, {"keyword": "Bypassing airport security via SQL injection", "score": 2004, "desc": "2004 pts · 440 comments", "url": "https://ian.sh/tsa", "source": "hn_ai"}], "repos": [{"keyword": "tt-a1i/archify", "score": 3902, "desc": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained", "url": "https://github.com/tt-a1i/archify", "source": "github"}, {"keyword": "bilawalsidhu/gods-eye-view", "score": 1855, "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photoreal", "url": "https://github.com/bilawalsidhu/gods-eye-view", "source": "github"}, {"keyword": "K-Dense-AI/scientific-agent-skills", "score": 1587, "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. ", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "source": "github"}, {"keyword": "THU-MAIC/OpenMAIC", "score": 907, "desc": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click", "url": "https://github.com/THU-MAIC/OpenMAIC", "source": "github"}, {"keyword": "sponsors/calesthio", "score": 806, "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and pr", "url": "https://github.com/sponsors/calesthio", "source": "github"}, {"keyword": "tailscale/tailcat", "score": 789, "desc": "like netcat, but over Tailscale's data plane, without Tailscale's control plane", "url": "https://github.com/tailscale/tailcat", "source": "github"}, {"keyword": "sponsors/abi", "score": 550, "desc": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)", "url": "https://github.com/sponsors/abi", "source": "github"}, {"keyword": "anthropics/claude-plugins-official", "score": 358, "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.", "url": "https://github.com/anthropics/claude-plugins-official", "source": "github"}, {"keyword": "JetBrains/go-modern-guidelines", "score": 303, "desc": "Help AI coding agents write modern Go", "url": "https://github.com/JetBrains/go-modern-guidelines", "source": "github"}, {"keyword": "workweave/router", "score": 284, "desc": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoin", "url": "https://github.com/workweave/router", "source": "github"}, {"keyword": "addyosmani/agent-skills", "score": 196, "desc": "Production-grade engineering skills for AI coding agents.", "url": "https://github.com/addyosmani/agent-skills", "source": "github"}], "keywords": [{"word": "Qwen3.8-27B", "count": 1, "sources": ["HF"], "cross": false, "score": 20}, {"word": "MiniMax-H3", "count": 1, "sources": ["HF"], "cross": false, "score": 20}, {"word": "Qwen3.8", "count": 1, "sources": ["HF"], "cross": false, "score": 20}, {"word": "Wiki", "count": 1, "sources": ["arXiv"], "cross": false, "score": 0}, {"word": "Skill", "count": 1, "sources": ["arXiv"], "cross": false, "score": 0}, {"word": "Compiling Agent Experience", "count": 1, "sources": ["arXiv"], "cross": false, "score": 0}, {"word": "Airfoil", "count": 1, "sources": ["HN"], "cross": false, "score": 0}, {"word": "Open", "count": 1, "sources": ["HN"], "cross": false, "score": 0}, {"word": "Gemini", "count": 1, "sources": ["HN"], "cross": false, "score": 0}, {"word": "archify", "count": 1, "sources": ["GitHub"], "cross": false, "score": 0}, {"word": "gods-eye-view", "count": 1, "sources": ["GitHub"], "cross": false, "score": 0}, {"word": "scientific-agent-skills", "count": 1, "sources": ["GitHub"], "cross": false, "score": 0}, {"word": "Topview Motion Studio", "count": 1, "sources": ["PH"], "cross": false, "score": 0}, {"word": "Superagent", "count": 1, "sources": ["PH"], "cross": false, "score": 0}, {"word": "Sayscroll", "count": 1, "sources": ["PH"], "cross": false, "score": 0}]};
 
-// 热词
-const kwbox = document.getElementById('kwbox');
 const SRC_LABEL = {HF:'HuggingFace', GitHub:'GitHub', arXiv:'arXiv', HN:'HackerNews', PH:'ProductHunt'};
-kwbox.innerHTML = (DATA.keywords||[]).map(k => {
-  var srcs = (k.sources||[]).map(s => SRC_LABEL[s]||s).join('/');
-  var tag = srcs ? ' <i style="color:var(--muted);font-size:11px">' + srcs + '</i>' : '';
-  var badge = k.cross ? ' <span class="tag" style="background:rgba(255,71,87,.18);color:#ff8a95">🌐 全网热点</span>' : '';
-  return '<span class="kw">' + k.word + badge + ' <b>×' + k.count + '</b>' + tag + '</span>';
+const SOURCE_LABEL = {huggingface:'HuggingFace', arxiv:'arXiv', robotics:'Robotics', producthunt:'Product Hunt', hn_ai:'Hacker News', github:'GitHub'};
+
+function escapeHTML(value) {
+  return String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
+}
+
+function safeHref(value) {
+  try {
+    const url = new URL(value || '#', window.location.href);
+    return ['http:', 'https:'].includes(url.protocol) ? url.href : '#';
+  } catch (error) {
+    return '#';
+  }
+}
+
+function cleanKeyword(value) {
+  return String(value ?? '').replace(/^📊\s*/, '');
+}
+
+function setCount(id, items, suffix) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = `${items.length} ${suffix}`;
+}
+
+document.title = `AI 热词日报 · ${DATA.date || ''}`;
+document.getElementById('reportDate').textContent = DATA.date || '今日';
+document.getElementById('metricKeywords').textContent = (DATA.keywords || []).length;
+document.getElementById('metricModels').textContent = (DATA.models || []).length;
+document.getElementById('metricPapers').textContent = (DATA.papers || []).length;
+document.getElementById('metricRepos').textContent = (DATA.repos || []).length;
+setCount('modelCount', DATA.models || [], '个');
+setCount('paperCount', DATA.papers || [], '篇');
+setCount('robotCount', DATA.robotics || [], '条');
+setCount('productCount', DATA.products || [], '个');
+setCount('discussionCount', DATA.discussions || [], '条');
+setCount('repoCount', DATA.repos || [], '个');
+
+const kwbox = document.getElementById('kwbox');
+kwbox.innerHTML = (DATA.keywords || []).map(keyword => {
+  const sourceNames = (keyword.sources || []).map(source => SRC_LABEL[source] || source).join(' / ');
+  const badge = keyword.cross ? '<span class="tag">全网热点</span>' : '';
+  return `<span class="kw"><span>${escapeHTML(keyword.word)}</span>${badge}<b>×${escapeHTML(keyword.count)}</b><span class="kw-source">${escapeHTML(sourceNames)}</span></span>`;
 }).join('');
 
-function renderList(el, items, opts) {
-  el.innerHTML = items.map((it,i) => `
-    <div class="item">
-      <div class="rank">${i+1}</div>
-      <div class="name">
-        <a href="${it.url||'#'}" target="_blank">${it.keyword}</a>
-        <div class="meta">${it.desc||''}</div>
-      </div>
-    </div>`).join('');
+function renderList(el, items) {
+  el.innerHTML = (items || []).map((item, index) => {
+    const label = SOURCE_LABEL[item.source] || item.source || '';
+    const meta = item.desc || label;
+    return `
+      <div class="item">
+        <div class="rank">${index + 1}</div>
+        <div class="name">
+          <a href="${escapeHTML(safeHref(item.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(cleanKeyword(item.keyword))}</a>
+          <div class="meta">${escapeHTML(meta)}</div>
+        </div>
+      </div>`;
+  }).join('');
 }
 renderList(document.getElementById('modelList'), DATA.models);
 renderList(document.getElementById('paperList'), DATA.papers);
@@ -120,24 +284,40 @@ renderList(document.getElementById('productList'), DATA.products);
 renderList(document.getElementById('discussionList'), DATA.discussions);
 renderList(document.getElementById('repoList'), DATA.repos);
 
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(item => item.classList.remove('active'));
+    tab.classList.add('active');
+  });
+});
+
 // ECharts 模型热度 (CDN 加载失败时降级,不影响其他内容)
 if (typeof echarts !== 'undefined') {
   const chart = echarts.init(document.getElementById('chart'));
-  const top = DATA.models.slice(0,8).reverse();
+  const top = (DATA.models || []).slice(0, 8).reverse();
   chart.setOption({
-    tooltip: {},
-    grid: {left: 10, right: 40, top: 10, bottom: 10, containLabel: true},
-    xAxis: { type: 'value', splitLine: { lineStyle: { color: '#2a2e3d' } } },
-    yAxis: { type: 'category', data: top.map(m => m.keyword.split('/').pop()) },
+    animationDuration: 500,
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: { type: 'shadow' },
+      backgroundColor: '#ffffff',
+      borderColor: '#e2e9f2',
+      textStyle: { color: '#24324a' }
+    },
+    grid: { left: 10, right: 36, top: 8, bottom: 8, containLabel: true },
+    xAxis: { type: 'value', axisLabel: { color: '#8fa1ba', fontSize: 11 }, splitLine: { lineStyle: { color: '#edf1f6' } }, axisLine: { show: false } },
+    yAxis: { type: 'category', data: top.map(model => model.keyword.split('/').pop()), axisLabel: { color: '#52627d', fontSize: 11 }, axisLine: { show: false }, axisTick: { show: false } },
     series: [{
       type: 'bar',
-      data: top.map(m => m.score),
-      itemStyle: { color: '#7c5cff' },
-      label: { show: true, position: 'right' }
+      barMaxWidth: 14,
+      data: top.map(model => model.score),
+      itemStyle: { color: '#7b80f7', borderRadius: [0, 8, 8, 0] },
+      label: { show: true, position: 'right', color: '#52627d', fontSize: 11 }
     }]
   });
+  window.addEventListener('resize', () => chart.resize());
 } else {
-  document.getElementById('chart').innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">📊 图表库加载失败,可点击刷新重试</div>';
+  document.getElementById('chart').innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">图表库加载失败，请刷新重试</div>';
 }
 </script>
 </body>
