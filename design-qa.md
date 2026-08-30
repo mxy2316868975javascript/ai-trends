@@ -1,7 +1,7 @@
 # Design QA
 
 - Source visual truth: `/var/folders/sh/nwv50j3j2nx27ryst5m213_80000gn/T/codex-clipboard-bdf6c0c0-6b35-464d-b383-5e748481fe2e.png`
-- Implementation screenshot: `/tmp/ai-trends-final-desktop.png`
+- Implementation screenshot: `/tmp/ai-trends-badges.png`
 - Combined comparison: `/tmp/ai-trends-design-qa-comparison.png`
 - Viewport: desktop `1440 x 1200` CSS viewport; mobile spot check `390 x 844` CSS viewport.
 - Source pixels: `3122 x 1840`; implementation pixels: `1425 x 1082` from the browser capture. For visual comparison both were normalized to `900 x 683`; the source was resized from the top edge and padded to preserve the comparison canvas, while the implementation was resized to the same canvas.
