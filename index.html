@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 热词 · 2026-08-30</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1117; --card: #1a1d27; --border: #2a2e3d;
+    --text: #e4e6eb; --muted: #9aa0ab; --accent: #7c5cff; --hot: #ff4757;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--text); font-family:-apple-system,'Segoe UI',Roboto,sans-serif; }
+  .wrap { max-width:1100px; margin:0 auto; padding:24px 16px 60px; }
+  header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:24px; }
+  h1 { font-size:28px; } h1 span { color:var(--accent); }
+  .date { color:var(--muted); font-size:14px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  @media(max-width:800px) { .grid { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; }
+  .card h2 { font-size:16px; margin-bottom:12px; display:flex; align-items:center; gap:6px; }
+  .card h2 .count { color:var(--muted); font-size:12px; font-weight:normal; }
+  .item { padding:8px 0; border-bottom:1px solid var(--border); display:flex; gap:10px; align-items:flex-start; }
+  .item:last-child { border-bottom:none; }
+  .rank { color:var(--muted); font-weight:bold; min-width:20px; }
+  .item .name { flex:1; }
+  .item .name a { color:var(--text); text-decoration:none; }
+  .item .name a:hover { color:var(--accent); }
+  .item .meta { color:var(--muted); font-size:12px; margin-top:2px; }
+  .tag { display:inline-block; background:rgba(124,92,255,.15); color:var(--accent);
+         font-size:11px; padding:1px 8px; border-radius:10px; margin-right:6px; }
+  .full { grid-column:1/-1; }
+  .chart { height:300px; }
+  .footer { margin-top:24px; color:var(--muted); font-size:12px; text-align:center; }
+  .kw { display:inline-block; margin:4px; padding:6px 14px; background:var(--card);
+        border:1px solid var(--border); border-radius:20px; font-size:14px; }
+  .kw b { color:var(--hot); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🤖 AI <span>热词</span>日报</h1>
+    <div class="date">2026-08-30 · 每天自动更新</div>
+  </header>
+
+  <div class="card full" style="margin-bottom:16px;">
+    <h2>🔥 今日 AI 热词 TOP 15 <span class="count">(跨源词频统计)</span></h2>
+    <div id="kwbox"></div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>🏆 趋势模型 <span class="count">14</span></h2>
+      <div id="modelList"></div>
+    </div>
+
+    <div class="card">
+      <h2>📄 最新论文 <span class="count">12</span></h2>
+      <div id="paperList"></div>
+    </div>
+
+    <div class="card full">
+      <h2>🦾 具身机器人 <span class="count">12</span> <span class="tag">Embodied AI</span></h2>
+      <div id="robotList"></div>
+    </div>
+
+    <div class="card">
+      <h2>🛠 AI 新产品 <span class="count">3</span></h2>
+      <div id="productList"></div>
+    </div>
+
+    <div class="card">
+      <h2>💬 社区讨论 <span class="count">10</span></h2>
+      <div id="discussionList"></div>
+    </div>
+
+    <div class="card">
+      <h2>📦 开发者仓库 <span class="count">11</span></h2>
+      <div id="repoList"></div>
+    </div>
+
+    <div class="card">
+      <h2>📊 模型热度分布</h2>
+      <div id="chart" class="chart"></div>
+    </div>
+  </div>
+
+  <div class="footer">数据来源: HuggingFace · arXiv · Product Hunt · Hacker News · GitHub | 每天 8:00 自动更新</div>
+</div>
+
+<script>
+const DATA = {"date": "2026-08-30", "generated_at": "2026-08-30T07:10:38.693630+00:00", "models": [{"keyword": "Qwen/Qwen3.8-27B", "score": 13278, "desc": "4,028,839 downloads · 13278 likes", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "source": "huggingface"}, {"keyword": "MiniMaxAI/MiniMax-H3", "score": 4629, "desc": "5,018,833 downloads · 4629 likes", "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3", "source": "huggingface"}, {"keyword": "Qwen/Qwen3.8-Flash-Next", "score": 4308, "desc": "52,341 downloads · 4308 likes", "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next", "source": "huggingface"}, {"keyword": "unsloth/Qwen3.8-27B-GGUF", "score": 3191, "desc": "8,363,481 downloads · 3191 likes", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "source": "huggingface"}, {"keyword": "Lightricks/LTX-2.5", "score": 2156, "desc": "1,044,661 downloads · 2156 likes", "url": "https://huggingface.co/Lightricks/LTX-2.5", "source": "huggingface"}, {"keyword": "zai-org/GLM-5.3-Flash", "score": 1638, "desc": "189,793 downloads · 1638 likes", "url": "https://huggingface.co/zai-org/GLM-5.3-Flash", "source": "huggingface"}, {"keyword": "zai-org/GLM-5.3", "score": 1293, "desc": "8,804 downloads · 1293 likes", "url": "https://huggingface.co/zai-org/GLM-5.3", "source": "huggingface"}, {"keyword": "orcarouter/Qwen3.8-27B-Uncensored-FP8", "score": 1263, "desc": "290,216 downloads · 1263 likes", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8", "source": "huggingface"}, {"keyword": "orcarouter/Qwen3.8-27B-Uncensored-MLX", "score": 1219, "desc": "97,508 downloads · 1219 likes", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX", "source": "huggingface"}, {"keyword": "OBLITERATUS/Qwen3.8-27B-OBLITERATED", "score": 926, "desc": "645,554 downloads · 926 likes", "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED", "source": "huggingface"}, {"keyword": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "score": 755, "desc": "1,061,687 downloads · 755 likes", "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "source": "huggingface"}, {"keyword": "unsloth/Qwen3.8-Flash-Next-GGUF", "score": 574, "desc": "188,061 downloads · 574 likes", "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF", "source": "huggingface"}, {"keyword": "tencent/Hy4-preview", "score": 291, "desc": "1,394 downloads · 291 likes", "url": "https://huggingface.co/tencent/Hy4-preview", "source": "huggingface"}, {"keyword": "unsloth/GLM-5.3-Flash-GGUF", "score": 276, "desc": "27,288 downloads · 276 likes", "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF", "source": "huggingface"}], "datasets": [{"keyword": "📊 markov-ai/cad-1000-hours", "score": 223, "desc": "Trending Dataset", "url": "https://huggingface.co/datasets/markov-ai/cad-1000-hours", "source": "huggingface"}], "papers": [{"keyword": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution", "score": 0, "desc": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agen", "url": "http://arxiv.org/abs/2608.27454v1", "source": "arxiv"}, {"keyword": "SWE-Prime: Fewer Trajectories, Better Performance", "score": 0, "desc": "To improve large language models' ability to resolve real-world software issues, prior work has focu", "url": "http://arxiv.org/abs/2608.27449v1", "source": "arxiv"}, {"keyword": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench", "score": 0, "desc": "In real-world software development, code review typically involves iterative interactions between de", "url": "http://arxiv.org/abs/2608.27442v1", "source": "arxiv"}, {"keyword": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution", "score": 0, "desc": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks ca", "url": "http://arxiv.org/abs/2608.27439v1", "source": "arxiv"}, {"keyword": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation", "score": 0, "desc": "Chemical reactions are fundamentally transformations in electron space, yet most machine learning ap", "url": "http://arxiv.org/abs/2608.27429v1", "source": "arxiv"}, {"keyword": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit", "score": 0, "desc": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone", "url": "http://arxiv.org/abs/2608.27427v1", "source": "arxiv"}, {"keyword": "Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners", "score": 0, "desc": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine-", "url": "http://arxiv.org/abs/2608.27424v1", "source": "arxiv"}, {"keyword": "Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study", "score": 0, "desc": "Currently used sepsis severity indices rely on fixed variables and weights established decades ago, ", "url": "http://arxiv.org/abs/2608.27421v1", "source": "arxiv"}, {"keyword": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators", "score": 0, "desc": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodime", "url": "http://arxiv.org/abs/2608.27406v1", "source": "arxiv"}, {"keyword": "How Language Models Organize and Structure Moral Knowledge", "score": 0, "desc": "How do large language models (LLMs) organize moral knowledge? Models detect moral content broadly, b", "url": "http://arxiv.org/abs/2608.27402v1", "source": "arxiv"}, {"keyword": "Making Clinical Language Models Auditable: Concept-Guided Fine-Tuning for Robust Prediction", "score": 0, "desc": "Clinical language models can achieve strong in-hospital accuracy yet fail under deployment shifts be", "url": "http://arxiv.org/abs/2608.27397v1", "source": "arxiv"}, {"keyword": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics", "score": 0, "desc": "Video carries the temporal structure of the physical world, yet learning representations from it has", "url": "http://arxiv.org/abs/2608.27395v1", "source": "arxiv"}], "robotics": [{"keyword": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators", "score": 0, "desc": "State-of-the-art action-conditioned video models are typically restricted to a single robot embodime", "url": "http://arxiv.org/abs/2608.27406v1", "source": "robotics"}, {"keyword": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference", "score": 0, "desc": "Vision-Language-Action (VLA) models are increasingly promising for robotic manipulation, yet their r", "url": "http://arxiv.org/abs/2608.27384v1", "source": "robotics"}, {"keyword": "Embodied Scene Rearrangement Planning", "score": 0, "desc": "This paper introduces Embodied Scene Rearrangement Planning (ESRP), a novel task requiring embodied ", "url": "http://arxiv.org/abs/2608.27371v1", "source": "robotics"}, {"keyword": "TADP: Task-Aware Deformable Prediction for Single-Stage 3D Object Detection", "score": 0, "desc": "Most single-stage 3D object detectors complete different tasks with the same extracted features. Nev", "url": "http://arxiv.org/abs/2608.27282v1", "source": "robotics"}, {"keyword": "Marine Autonomous Vehicle Fleet Scheduling to Maximise Scientific Impact", "score": 0, "desc": "The marine science community increasingly relies on Marine Autonomous Vehicles (MAVs) to collect the", "url": "http://arxiv.org/abs/2608.27271v1", "source": "robotics"}, {"keyword": "STEP: State-Aware Task Estimation and Planning with Multi-Modal LLMs for Human-Robot Collaboration", "score": 0, "desc": "Effective human-robot collaboration in industrial settings requires robots to understand human inten", "url": "http://arxiv.org/abs/2608.27225v1", "source": "robotics"}, {"keyword": "Tensegrity Continuum Robots Enable Task-Adaptive Morphologies for Cooperative Behaviors", "score": 0, "desc": "Robots that can change their morphologies and behaviors for different tasks and environments hold gr", "url": "http://arxiv.org/abs/2608.27221v1", "source": "robotics"}, {"keyword": "Task-space model-based control of pneumatic soft actuators", "score": 0, "desc": "Soft actuators enable dexterous and compliant interaction, but closed-loop task-space control remain", "url": "http://arxiv.org/abs/2608.27186v1", "source": "robotics"}, {"keyword": "Planning a Shared Modular Fixture Layout Across Robotic Disassembly Stages", "score": 0, "desc": "Stable support remains challenging in robotic disassembly of irregularly shaped products. As compone", "url": "http://arxiv.org/abs/2608.27151v1", "source": "robotics"}, {"keyword": "Active sensing to characterize the heterogeneity of plant stress", "score": 0, "desc": "While most phenotyping platforms rely primarily on image-based measurements, advanced plant characte", "url": "http://arxiv.org/abs/2608.27088v1", "source": "robotics"}, {"keyword": "Pass the Bucket: Efficient, Robust, Local Load Balancing for Teams of Heterogeneous Robots", "score": 0, "desc": "We study the problem of decentralized, self-organized task sharing for a swarm of heterogeneous robo", "url": "http://arxiv.org/abs/2608.27085v1", "source": "robotics"}, {"keyword": "GRAFT: Grounded and Efficient Online Reinforcement Adaptation for Fine-Grained Robot Manipulation", "score": 0, "desc": "Pretrained vision-language-action (VLA) policies provide strong priors for robot manipulation, yet a", "url": "http://arxiv.org/abs/2608.27079v1", "source": "robotics"}], "products": [{"keyword": "Cursor Craft v2", "score": 0, "desc": "", "url": "https://www.producthunt.com/products/cursor-craft", "source": "producthunt"}, {"keyword": "Cohere Parse 5", "score": 0, "desc": "", "url": "https://www.producthunt.com/products/cohere-2", "source": "producthunt"}, {"keyword": "1752vc Pitch Deck Analyzer", "score": 0, "desc": "", "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis", "source": "producthunt"}], "discussions": [{"keyword": "Don't post generated/AI-edited comments. HN is for conversation between humans", "score": 4229, "desc": "4229 pts · 1668 comments", "url": "https://news.ycombinator.com/newsguidelines.html#generated", "source": "hn_ai"}, {"keyword": "Airfoil", "score": 2544, "desc": "2544 pts · 296 comments", "url": "https://ciechanow.ski/airfoil/", "source": "hn_ai"}, {"keyword": "Open source AI is the path forward", "score": 2360, "desc": "2360 pts · 887 comments", "url": "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/", "source": "hn_ai"}, {"keyword": "My AI skeptic friends are all nuts", "score": 2356, "desc": "2356 pts · 2826 comments", "url": "https://fly.io/blog/youre-all-nuts/", "source": "hn_ai"}, {"keyword": "An AI agent published a hit piece on me", "score": 2346, "desc": "2346 pts · 951 comments", "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/", "source": "hn_ai"}, {"keyword": "Gemini AI", "score": 2135, "desc": "2135 pts · 1602 comments", "url": "https://deepmind.google/technologies/gemini/", "source": "hn_ai"}, {"keyword": "I believe there are entire companies right now under AI psychosis", "score": 2105, "desc": "2105 pts · 1272 comments", "url": "https://twitter.com/mitchellh/status/2055380239711457578", "source": "hn_ai"}, {"keyword": "IDF killed Gaza aid workers at point blank range in 2025 massacre: Report", "score": 2084, "desc": "2084 pts · 997 comments", "url": "https://www.dropsitenews.com/p/israeli-soldiers-tel-sultan-gaza-red-crescent-civil-defense-massacre-report-forensic-architecture-earshot", "source": "hn_ai"}, {"keyword": "I'm Tired of Talking to AI", "score": 2013, "desc": "2013 pts · 950 comments", "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/", "source": "hn_ai"}, {"keyword": "Bypassing airport security via SQL injection", "score": 2004, "desc": "2004 pts · 440 comments", "url": "https://ian.sh/tsa", "source": "hn_ai"}], "repos": [{"keyword": "tt-a1i/archify", "score": 3902, "desc": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained", "url": "https://github.com/tt-a1i/archify", "source": "github"}, {"keyword": "bilawalsidhu/gods-eye-view", "score": 1855, "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photoreal", "url": "https://github.com/bilawalsidhu/gods-eye-view", "source": "github"}, {"keyword": "K-Dense-AI/scientific-agent-skills", "score": 1587, "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. ", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "source": "github"}, {"keyword": "THU-MAIC/OpenMAIC", "score": 907, "desc": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click", "url": "https://github.com/THU-MAIC/OpenMAIC", "source": "github"}, {"keyword": "sponsors/calesthio", "score": 806, "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and pr", "url": "https://github.com/sponsors/calesthio", "source": "github"}, {"keyword": "tailscale/tailcat", "score": 789, "desc": "like netcat, but over Tailscale's data plane, without Tailscale's control plane", "url": "https://github.com/tailscale/tailcat", "source": "github"}, {"keyword": "sponsors/abi", "score": 550, "desc": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)", "url": "https://github.com/sponsors/abi", "source": "github"}, {"keyword": "anthropics/claude-plugins-official", "score": 358, "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.", "url": "https://github.com/anthropics/claude-plugins-official", "source": "github"}, {"keyword": "JetBrains/go-modern-guidelines", "score": 303, "desc": "Help AI coding agents write modern Go", "url": "https://github.com/JetBrains/go-modern-guidelines", "source": "github"}, {"keyword": "workweave/router", "score": 284, "desc": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoin", "url": "https://github.com/workweave/router", "source": "github"}, {"keyword": "addyosmani/agent-skills", "score": 196, "desc": "Production-grade engineering skills for AI coding agents.", "url": "https://github.com/addyosmani/agent-skills", "source": "github"}], "keywords": [{"word": "Qwen3.8-27B", "count": 1, "sources": ["HF"], "cross": false, "score": 20}, {"word": "MiniMax-H3", "count": 1, "sources": ["HF"], "cross": false, "score": 20}, {"word": "Qwen3.8", "count": 1, "sources": ["HF"], "cross": false, "score": 20}, {"word": "Wiki", "count": 1, "sources": ["arXiv"], "cross": false, "score": 0}, {"word": "Skill", "count": 1, "sources": ["arXiv"], "cross": false, "score": 0}, {"word": "Compiling Agent Experience", "count": 1, "sources": ["arXiv"], "cross": false, "score": 0}, {"word": "Airfoil", "count": 1, "sources": ["HN"], "cross": false, "score": 0}, {"word": "Open", "count": 1, "sources": ["HN"], "cross": false, "score": 0}, {"word": "Gemini", "count": 1, "sources": ["HN"], "cross": false, "score": 0}, {"word": "archify", "count": 1, "sources": ["GitHub"], "cross": false, "score": 0}, {"word": "gods-eye-view", "count": 1, "sources": ["GitHub"], "cross": false, "score": 0}, {"word": "scientific-agent-skills", "count": 1, "sources": ["GitHub"], "cross": false, "score": 0}, {"word": "Cursor Craft v2", "count": 1, "sources": ["PH"], "cross": false, "score": 0}, {"word": "Cohere Parse 5", "count": 1, "sources": ["PH"], "cross": false, "score": 0}, {"word": "1752vc Pitch Deck Analyzer", "count": 1, "sources": ["PH"], "cross": false, "score": 0}]};
+
+// 热词
+const kwbox = document.getElementById('kwbox');
+const SRC_LABEL = {HF:'HuggingFace', GitHub:'GitHub', arXiv:'arXiv', HN:'HackerNews', PH:'ProductHunt'};
+kwbox.innerHTML = (DATA.keywords||[]).map(k => {
+  var srcs = (k.sources||[]).map(s => SRC_LABEL[s]||s).join('/');
+  var tag = srcs ? ' <i style="color:var(--muted);font-size:11px">' + srcs + '</i>' : '';
+  var badge = k.cross ? ' <span class="tag" style="background:rgba(255,71,87,.18);color:#ff8a95">🌐 全网热点</span>' : '';
+  return '<span class="kw">' + k.word + badge + ' <b>×' + k.count + '</b>' + tag + '</span>';
+}).join('');
+
+function renderList(el, items, opts) {
+  el.innerHTML = items.map((it,i) => `
+    <div class="item">
+      <div class="rank">${i+1}</div>
+      <div class="name">
+        <a href="${it.url||'#'}" target="_blank">${it.keyword}</a>
+        <div class="meta">${it.desc||''}</div>
+      </div>
+    </div>`).join('');
+}
+renderList(document.getElementById('modelList'), DATA.models);
+renderList(document.getElementById('paperList'), DATA.papers);
+renderList(document.getElementById('robotList'), DATA.robotics);
+renderList(document.getElementById('productList'), DATA.products);
+renderList(document.getElementById('discussionList'), DATA.discussions);
+renderList(document.getElementById('repoList'), DATA.repos);
+
+// ECharts 模型热度
+const chart = echarts.init(document.getElementById('chart'));
+const top = DATA.models.slice(0,8).reverse();
+chart.setOption({
+  tooltip: {},
+  grid: {left: 10, right: 40, top: 10, bottom: 10, containLabel: true},
+  xAxis: { type: 'value', splitLine: { lineStyle: { color: '#2a2e3d' } } },
+  yAxis: { type: 'category', data: top.map(m => m.keyword.split('/').pop()) },
+  series: [{
+    type: 'bar',
+    data: top.map(m => m.score),
+    itemStyle: { color: '#7c5cff' },
+    label: { show: true, position: 'right' }
+  }]
+});
+</script>
+</body>
+</html>
