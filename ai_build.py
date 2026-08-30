@@ -304,7 +304,7 @@ def write_site(data: dict):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 热词 · {data['date']}</title>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <style>
   :root {{
     --bg: #0f1117; --card: #1a1d27; --border: #2a2e3d;
@@ -420,21 +420,25 @@ renderList(document.getElementById('productList'), DATA.products);
 renderList(document.getElementById('discussionList'), DATA.discussions);
 renderList(document.getElementById('repoList'), DATA.repos);
 
-// ECharts 模型热度
-const chart = echarts.init(document.getElementById('chart'));
-const top = DATA.models.slice(0,8).reverse();
-chart.setOption({{
-  tooltip: {{}},
-  grid: {{left: 10, right: 40, top: 10, bottom: 10, containLabel: true}},
-  xAxis: {{ type: 'value', splitLine: {{ lineStyle: {{ color: '#2a2e3d' }} }} }},
-  yAxis: {{ type: 'category', data: top.map(m => m.keyword.split('/').pop()) }},
-  series: [{{
-    type: 'bar',
-    data: top.map(m => m.score),
-    itemStyle: {{ color: '#7c5cff' }},
-    label: {{ show: true, position: 'right' }}
-  }}]
-}});
+// ECharts 模型热度 (CDN 加载失败时降级,不影响其他内容)
+if (typeof echarts !== 'undefined') {{
+  const chart = echarts.init(document.getElementById('chart'));
+  const top = DATA.models.slice(0,8).reverse();
+  chart.setOption({{
+    tooltip: {{}},
+    grid: {{left: 10, right: 40, top: 10, bottom: 10, containLabel: true}},
+    xAxis: {{ type: 'value', splitLine: {{ lineStyle: {{ color: '#2a2e3d' }} }} }},
+    yAxis: {{ type: 'category', data: top.map(m => m.keyword.split('/').pop()) }},
+    series: [{{
+      type: 'bar',
+      data: top.map(m => m.score),
+      itemStyle: {{ color: '#7c5cff' }},
+      label: {{ show: true, position: 'right' }}
+    }}]
+  }});
+}} else {{
+  document.getElementById('chart').innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">📊 图表库加载失败,可点击刷新重试</div>';
+}}
 </script>
 </body>
 </html>"""

@@ -1,6 +1,6 @@
 {
  "date": "2026-08-30",
- "generated_at": "2026-08-30T07:50:28.190738+00:00",
+ "generated_at": "2026-08-30T07:56:52.993254+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
@@ -11,15 +11,15 @@
   },
   {
    "keyword": "MiniMaxAI/MiniMax-H3",
-   "score": 4630,
-   "desc": "5,018,833 downloads · 4630 likes",
+   "score": 4631,
+   "desc": "5,018,833 downloads · 4631 likes",
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
    "source": "huggingface"
   },
   {
    "keyword": "Qwen/Qwen3.8-Flash-Next",
-   "score": 4315,
-   "desc": "52,341 downloads · 4315 likes",
+   "score": 4316,
+   "desc": "52,341 downloads · 4316 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
    "source": "huggingface"
   },
@@ -67,15 +67,15 @@
   },
   {
    "keyword": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-   "score": 928,
-   "desc": "645,554 downloads · 928 likes",
+   "score": 929,
+   "desc": "645,554 downloads · 929 likes",
    "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
    "source": "huggingface"
   },
   {
    "keyword": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-   "score": 755,
-   "desc": "1,061,687 downloads · 755 likes",
+   "score": 756,
+   "desc": "1,061,687 downloads · 756 likes",
    "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
    "source": "huggingface"
   },
@@ -284,10 +284,10 @@
  ],
  "products": [
   {
-   "keyword": "Sayscroll",
+   "keyword": "Topview Motion Studio",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/sayscroll-ai-teleprompter",
+   "url": "https://www.producthunt.com/products/topview-ai",
    "source": "producthunt"
   },
   {
@@ -298,10 +298,10 @@
    "source": "producthunt"
   },
   {
-   "keyword": "Topview Motion Studio",
+   "keyword": "Sayscroll",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/topview-ai",
+   "url": "https://www.producthunt.com/products/sayscroll-ai-teleprompter",
    "source": "producthunt"
   }
  ],
@@ -566,7 +566,7 @@
    "score": 0
   },
   {
-   "word": "Sayscroll",
+   "word": "Topview Motion Studio",
    "count": 1,
    "sources": [
     "PH"
@@ -584,7 +584,7 @@
    "score": 0
   },
   {
-   "word": "Topview Motion Studio",
+   "word": "Sayscroll",
    "count": 1,
    "sources": [
     "PH"
