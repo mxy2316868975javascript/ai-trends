@@ -395,6 +395,71 @@ def fetch_robotics(limit: int = 12) -> list:
     return items[:limit]
 
 
+# ── 13. MCP 服务器: Smithery registry ─────────────
+def fetch_mcp(limit: int = 20) -> list:
+    """最火的 MCP 服务器 (Smithery registry, 按 useCount 排序, 分页合并)"""
+    items = []
+    for page in range(1, 4):  # 每页固定 10 条, 抓 3 页
+        try:
+            req = urllib.request.Request(
+                f'https://registry.smithery.ai/servers?page={page}',
+                headers={'User-Agent': UA, 'Accept': 'application/json'})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                data = json.loads(resp.read().decode('utf-8'))
+            for s in data.get('servers', []):
+                qname = s.get('qualifiedName', '')
+                if not qname:
+                    continue
+                display = s.get('displayName') or qname
+                desc = ' '.join(re.sub(r'\[.*?\]\(.*?\)', '', s.get('description', '')).split())[:150]
+                items.append({
+                    'keyword': f'🔌 {display}',
+                    'score': s.get('useCount', 0),
+                    'desc': desc or s.get('homepage', ''),
+                    'url': s.get('homepage') or f'https://smithery.ai/server/{qname}',
+                    'source': 'mcp',
+                })
+        except Exception:
+            break
+    items.sort(key=lambda x: x['score'], reverse=True)
+    return items[:limit]
+
+
+# ── 14. Agent Skills: GitHub 搜索 ──────────────────
+def fetch_skills(limit: int = 20) -> list:
+    """最火的 Agent Skills (GitHub 搜索, 按 stars 排序, 只保留 skills 相关)"""
+    items = []
+    seen = set()
+    try:
+        req = urllib.request.Request(
+            'https://api.github.com/search/repositories?'
+            'q=agent+skills+OR+claude+skills+OR+ai+skills&sort=stars&order=desc&per_page=50',
+            headers={'User-Agent': UA, 'Accept': 'application/vnd.github+json'})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+        for r in data.get('items', []):
+            name = r.get('full_name', '')
+            desc = (r.get('description') or '')
+            low = (name + ' ' + desc).lower()
+            # 只保留真正与 skills 相关的仓库
+            if not any(k in low for k in ('skill', 'agent-skill', 'skills')):
+                continue
+            if not name or name in seen:
+                continue
+            seen.add(name)
+            items.append({
+                'keyword': f'⚡ {name}',
+                'score': r.get('stargazers_count', 0),
+                'desc': desc.strip()[:150] or f"★{r.get('stargazers_count', 0)} stars",
+                'url': r.get('html_url', ''),
+                'source': 'skills',
+            })
+    except Exception:
+        pass
+    items.sort(key=lambda x: x['score'], reverse=True)
+    return items[:limit]
+
+
 # ── 汇总 ───────────────────────────────────────────
 VERTICALS = {
     'dev':       {'label': '🧑💻 开发者/开源',         'fetch': fetch_github},
@@ -409,6 +474,8 @@ VERTICALS = {
     'ecommerce': {'label': '🛒 电商/跨境选品',        'fetch': fetch_ecommerce},
     'social':    {'label': '💬 社媒监听/舆情',        'fetch': fetch_social},
     'sports':    {'label': '🏈 体育博彩/电竞',        'fetch': fetch_sports},
+    'mcp':       {'label': '🔌 MCP 服务器',           'fetch': fetch_mcp},
+    'skills':    {'label': '⚡ Agent Skills',         'fetch': fetch_skills},
 }
 
 

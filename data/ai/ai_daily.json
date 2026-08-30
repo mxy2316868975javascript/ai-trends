@@ -1,102 +1,102 @@
 {
  "date": "2026-08-30",
- "generated_at": "2026-08-30T07:56:52.993254+00:00",
+ "generated_at": "2026-08-30T10:38:51.838694+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
-   "score": 13283,
-   "desc": "4,028,839 downloads · 13283 likes",
+   "score": 13290,
+   "desc": "4,511,348 downloads · 13290 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
    "source": "huggingface"
   },
   {
    "keyword": "MiniMaxAI/MiniMax-H3",
-   "score": 4631,
-   "desc": "5,018,833 downloads · 4631 likes",
+   "score": 4637,
+   "desc": "5,263,381 downloads · 4637 likes",
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
    "source": "huggingface"
   },
   {
    "keyword": "Qwen/Qwen3.8-Flash-Next",
-   "score": 4316,
-   "desc": "52,341 downloads · 4316 likes",
+   "score": 4326,
+   "desc": "121,976 downloads · 4326 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
    "source": "huggingface"
   },
   {
    "keyword": "unsloth/Qwen3.8-27B-GGUF",
-   "score": 3192,
-   "desc": "8,363,481 downloads · 3192 likes",
+   "score": 3201,
+   "desc": "8,839,153 downloads · 3201 likes",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "Lightricks/LTX-2.5",
-   "score": 2162,
-   "desc": "1,044,661 downloads · 2162 likes",
+   "score": 2177,
+   "desc": "1,137,181 downloads · 2177 likes",
    "url": "https://huggingface.co/Lightricks/LTX-2.5",
    "source": "huggingface"
   },
   {
    "keyword": "zai-org/GLM-5.3-Flash",
-   "score": 1643,
-   "desc": "189,793 downloads · 1643 likes",
+   "score": 1651,
+   "desc": "346,516 downloads · 1651 likes",
    "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
    "source": "huggingface"
   },
   {
    "keyword": "zai-org/GLM-5.3",
-   "score": 1296,
-   "desc": "8,804 downloads · 1296 likes",
+   "score": 1304,
+   "desc": "50,116 downloads · 1304 likes",
    "url": "https://huggingface.co/zai-org/GLM-5.3",
    "source": "huggingface"
   },
   {
    "keyword": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
-   "score": 1264,
-   "desc": "290,216 downloads · 1264 likes",
+   "score": 1269,
+   "desc": "301,964 downloads · 1269 likes",
    "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
    "source": "huggingface"
   },
   {
    "keyword": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-   "score": 1220,
-   "desc": "97,508 downloads · 1220 likes",
+   "score": 1222,
+   "desc": "109,121 downloads · 1222 likes",
    "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
    "source": "huggingface"
   },
   {
    "keyword": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-   "score": 929,
-   "desc": "645,554 downloads · 929 likes",
+   "score": 932,
+   "desc": "725,757 downloads · 932 likes",
    "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
    "source": "huggingface"
   },
   {
    "keyword": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-   "score": 756,
-   "desc": "1,061,687 downloads · 756 likes",
+   "score": 760,
+   "desc": "1,158,065 downloads · 760 likes",
    "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "unsloth/Qwen3.8-Flash-Next-GGUF",
-   "score": 578,
-   "desc": "188,061 downloads · 578 likes",
+   "score": 582,
+   "desc": "328,195 downloads · 582 likes",
    "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "tencent/Hy4-preview",
-   "score": 291,
-   "desc": "1,394 downloads · 291 likes",
+   "score": 295,
+   "desc": "2,123 downloads · 295 likes",
    "url": "https://huggingface.co/tencent/Hy4-preview",
    "source": "huggingface"
   },
   {
    "keyword": "unsloth/GLM-5.3-Flash-GGUF",
-   "score": 276,
-   "desc": "27,288 downloads · 276 likes",
+   "score": 280,
+   "desc": "45,936 downloads · 280 likes",
    "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF",
    "source": "huggingface"
   }
@@ -284,13 +284,6 @@
  ],
  "products": [
   {
-   "keyword": "Topview Motion Studio",
-   "score": 0,
-   "desc": "",
-   "url": "https://www.producthunt.com/products/topview-ai",
-   "source": "producthunt"
-  },
-  {
    "keyword": "Superagent",
    "score": 0,
    "desc": "",
@@ -298,10 +291,24 @@
    "source": "producthunt"
   },
   {
+   "keyword": "Topview Motion Studio",
+   "score": 0,
+   "desc": "",
+   "url": "https://www.producthunt.com/products/topview-ai",
+   "source": "producthunt"
+  },
+  {
    "keyword": "Sayscroll",
    "score": 0,
    "desc": "",
    "url": "https://www.producthunt.com/products/sayscroll-ai-teleprompter",
+   "source": "producthunt"
+  },
+  {
+   "keyword": "Murfy AI",
+   "score": 0,
+   "desc": "",
+   "url": "https://www.producthunt.com/products/murfy",
    "source": "producthunt"
   }
  ],
@@ -456,6 +463,290 @@
    "source": "github"
   }
  ],
+ "mcp": [
+  {
+   "keyword": "🔌 Brave Search",
+   "score": 87579,
+   "desc": "Search the web with Brave's independent index — web, news, images, and videos. Bring your own subscription token from the .",
+   "url": "https://brave.com/search/api/",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 uk-due-diligence",
+   "score": 60881,
+   "desc": "Tools across five UK public registers. All official APIs. Give an agent a company name and it pulls corporate status, filing compliance, director netw",
+   "url": "https://bouch.dev/products/uk-due-diligence-mcp/",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Paper Search",
+   "score": 59106,
+   "desc": "Search and download academic papers from arXiv, PubMed, bioRxiv, medRxiv, Google Scholar, Semantic Scholar, and IACR. Fetch PDFs and extract full text",
+   "url": "https://github.com/adamamer20/paper-search-mcp-openai",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Gmail",
+   "score": 57738,
+   "desc": "Read, search, and send Gmail messages. Manage drafts, threads, and labels; reply, forward, archive, trash, report spam, and triage your inbox.",
+   "url": "https://smithery.ai/servers/gmail",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Google Sheets",
+   "score": 56138,
+   "desc": "Search and inspect Google Sheets, create and edit spreadsheets, scan for data issues, review edit history, and manage comments.",
+   "url": "https://smithery.ai/servers/googlesheets",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Agent News",
+   "score": 43392,
+   "desc": "The intelligence layer agents use before they act, sourced answers on the agent economy. Query verified AI news with citations, confidence scores, and",
+   "url": "https://theagenttimes.com",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 PubMed",
+   "score": 42137,
+   "desc": "Search biomedical literature across 36 million citations. Find papers, abstracts, and related articles from MEDLINE and life science journals.",
+   "url": "https://smithery.ai/servers/pubmed",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Polymarket Data by PolymarketScan",
+   "score": 39483,
+   "desc": "Real-time Polymarket analytics for AI agents. Query live prediction market data including whale trades, market odds, trader profiles, and leaderboards",
+   "url": "https://PolymarketScan.org/API",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 sap-mcp",
+   "score": 34350,
+   "desc": "Use the SAP MCP Wizard or install the library from the npm registry to automatically create and configure a Solana/SAP wallet via https://mcp.sap.oobe",
+   "url": "https://mcp.sap.oobeprotocol.ai/",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 emblem-mcp",
+   "score": 25084,
+   "desc": "# EmblemAI MCP EmblemAI is a hosted Model Context Protocol server that gives AI agents a full-featured crypto wallet plus **200+ tools** for trading, ",
+   "url": "https://emblemvault.ai",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 OneSignal",
+   "score": 22491,
+   "desc": "OneSignal is a customer engagement platform that lets you send targeted push notifications, emails, SMS, and in-app messages, manage audiences, and tr",
+   "url": "https://onesignal.com/",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Web Scout",
+   "score": 19558,
+   "desc": "Search the web and extract clean, readable text from webpages. Process multiple URLs at once to speed up research with reliable throttling and error h",
+   "url": "https://github.com/pinkpixel-dev/web-scout-mcp",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 United States Weather",
+   "score": 17177,
+   "desc": "Provide real-time and forecast weather information for locations in the United States using natural language queries. Access current conditions, multi",
+   "url": "https://www.weather.gov",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 SubwayInfo NYC",
+   "score": 16873,
+   "desc": "Real-time NYC subway information. Check train status, view service alerts, and get station-level arrival times.",
+   "url": "https://subwayinfo.nyc",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Zipp",
+   "score": 16317,
+   "desc": "Multi-language crypto news for AI assistants — editorial summaries, sentiment labels (BULLISH/NEUTRAL/BEARISH), importance scores 0–100, and every sto",
+   "url": "https://zippfeed.com",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 entity-verification",
+   "score": 16045,
+   "desc": "Verified business-identity intelligence for AI agents & MCP clients — company verification, VAT, BORME, GLEIF, ownership and risk signals across 10 co",
+   "url": "https://entia.systems",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Google Calendar",
+   "score": 15718,
+   "desc": "Create, update, and delete Google Calendar events, list calendars and events, respond to invitations, and find times when everyone is free.",
+   "url": "https://smithery.ai/servers/googlecalendar",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Naver Search",
+   "score": 13327,
+   "desc": "Search Naver across news, blogs, books, encyclopedia, cafe posts, Knowledge iN, local places, images, shopping, and professional documents. Returns Ko",
+   "url": "https://search.naver.com",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 Slack",
+   "score": 12110,
+   "desc": "Read Slack conversations, threads, and user directories, send messages, and invite users to channels.",
+   "url": "https://smithery.ai/servers/slack",
+   "source": "mcp"
+  },
+  {
+   "keyword": "🔌 ComplianceCheckup",
+   "score": 11175,
+   "desc": "Free automated privacy grades (A+ to F) for 900+ SaaS tools, plus GDPR, HIPAA, PCI DSS, SOC 2, CCPA, and ADA compliance checklists with source citatio",
+   "url": "https://compliancecheckup.org/",
+   "source": "mcp"
+  }
+ ],
+ "skills": [
+  {
+   "keyword": "⚡ obra/superpowers",
+   "score": 279517,
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "url": "https://github.com/obra/superpowers",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ affaan-m/ECC",
+   "score": 244451,
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencod",
+   "url": "https://github.com/affaan-m/ECC",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ mattpocock/skills",
+   "score": 241371,
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "url": "https://github.com/mattpocock/skills",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ anthropics/skills",
+   "score": 172550,
+   "desc": "Public repository for Agent Skills",
+   "url": "https://github.com/anthropics/skills",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ Shubhamsaboo/awesome-llm-apps",
+   "score": 135206,
+   "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ addyosmani/agent-skills",
+   "score": 90853,
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ Leonxlnx/taste-skill",
+   "score": 82298,
+   "desc": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+   "url": "https://github.com/Leonxlnx/taste-skill",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ bytedance/deer-flow",
+   "score": 81121,
+   "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and ",
+   "url": "https://github.com/bytedance/deer-flow",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ mvanhorn/last30days-skill",
+   "score": 60265,
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ calesthio/OpenMontage",
+   "score": 54359,
+   "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ hesreallyhim/awesome-claude-code",
+   "score": 53210,
+   "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th",
+   "url": "https://github.com/hesreallyhim/awesome-claude-code",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ jeecgboot/JeecgBoot",
+   "score": 47546,
+   "desc": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生",
+   "url": "https://github.com/jeecgboot/JeecgBoot",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ kepano/obsidian-skills",
+   "score": 47515,
+   "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+   "url": "https://github.com/kepano/obsidian-skills",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ zhayujie/CowAgent",
+   "score": 46724,
+   "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel",
+   "url": "https://github.com/zhayujie/CowAgent",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ coreyhaines31/marketingskills",
+   "score": 46109,
+   "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+   "url": "https://github.com/coreyhaines31/marketingskills",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ sickn33/agentic-awesome-skills",
+   "score": 45682,
+   "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,00",
+   "url": "https://github.com/sickn33/agentic-awesome-skills",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ danny-avila/LibreChat",
+   "score": 42614,
+   "desc": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Ve",
+   "url": "https://github.com/danny-avila/LibreChat",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ blader/humanizer",
+   "score": 38886,
+   "desc": "Agent skill that removes signs of AI-generated writing from text",
+   "url": "https://github.com/blader/humanizer",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ github/awesome-copilot",
+   "score": 38434,
+   "desc": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+   "url": "https://github.com/github/awesome-copilot",
+   "source": "skills"
+  },
+  {
+   "keyword": "⚡ K-Dense-AI/scientific-agent-skills",
+   "score": 38300,
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated ski",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "source": "skills"
+  }
+ ],
  "keywords": [
   {
    "word": "Qwen3.8-27B",
@@ -566,7 +857,7 @@
    "score": 0
   },
   {
-   "word": "Topview Motion Studio",
+   "word": "Superagent",
    "count": 1,
    "sources": [
     "PH"
@@ -575,7 +866,7 @@
    "score": 0
   },
   {
-   "word": "Superagent",
+   "word": "Topview Motion Studio",
    "count": 1,
    "sources": [
     "PH"

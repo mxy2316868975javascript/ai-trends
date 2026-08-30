@@ -95,6 +95,8 @@ def build_ai_data() -> dict:
         'products': [],     # Product Hunt AI 产品
         'discussions': [],  # HN AI 讨论
         'repos': [],        # GitHub AI 仓库
+        'mcp': [],          # MCP 服务器 (Smithery)
+        'skills': [],       # Agent Skills (GitHub)
     }
 
     # 1. HuggingFace 模型
@@ -130,6 +132,18 @@ def build_ai_data() -> dict:
     for item in verticals.get('dev', []):
         if is_ai_relevant(item['keyword']) or is_ai_relevant(item.get('desc', '')):
             result['repos'].append(item)
+
+    # 5b. MCP 服务器 (Smithery 最火, 至少 18 条)
+    try:
+        result['mcp'] = vt.fetch_mcp(limit=20)
+    except Exception:
+        result['mcp'] = []
+
+    # 5c. Agent Skills (GitHub 最火, 至少 18 条)
+    try:
+        result['skills'] = vt.fetch_skills(limit=20)
+    except Exception:
+        result['skills'] = []
 
     # 提取 AI 热词 (从所有标题里抽关键词)
     result['keywords'] = extract_ai_keywords(result)
@@ -292,157 +306,17 @@ def write_json(data: dict):
 
 
 def write_site(data: dict):
-    """生成静态 HTML 网站"""
-    SITE_DIR.mkdir(parents=True, exist_ok=True)
+    """生成静态 HTML 网站 (基于 template.html, 替换数据占位符)"""
+    # 读取用户设计的浅色模板
+    template_path = Path(__file__).parent / 'template.html'
+    with open(template_path, 'r', encoding='utf-8') as f:
+        template = f.read()
 
     # 序列化 JSON 嵌入页面
     json_str = json.dumps(data, ensure_ascii=False)
+    html = template.replace('__DATA_JSON__', json_str)
 
-    html = f"""<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 热词 · {data['date']}</title>
-<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
-<style>
-  :root {{
-    --bg: #0f1117; --card: #1a1d27; --border: #2a2e3d;
-    --text: #e4e6eb; --muted: #9aa0ab; --accent: #7c5cff; --hot: #ff4757;
-  }}
-  * {{ margin:0; padding:0; box-sizing:border-box; }}
-  body {{ background:var(--bg); color:var(--text); font-family:-apple-system,'Segoe UI',Roboto,sans-serif; }}
-  .wrap {{ max-width:1100px; margin:0 auto; padding:24px 16px 60px; }}
-  header {{ display:flex; justify-content:space-between; align-items:baseline; margin-bottom:24px; }}
-  h1 {{ font-size:28px; }} h1 span {{ color:var(--accent); }}
-  .date {{ color:var(--muted); font-size:14px; }}
-  .grid {{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }}
-  @media(max-width:800px) {{ .grid {{ grid-template-columns:1fr; }} }}
-  .card {{ background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; }}
-  .card h2 {{ font-size:16px; margin-bottom:12px; display:flex; align-items:center; gap:6px; }}
-  .card h2 .count {{ color:var(--muted); font-size:12px; font-weight:normal; }}
-  .item {{ padding:8px 0; border-bottom:1px solid var(--border); display:flex; gap:10px; align-items:flex-start; }}
-  .item:last-child {{ border-bottom:none; }}
-  .rank {{ color:var(--muted); font-weight:bold; min-width:20px; }}
-  .item .name {{ flex:1; }}
-  .item .name a {{ color:var(--text); text-decoration:none; }}
-  .item .name a:hover {{ color:var(--accent); }}
-  .item .meta {{ color:var(--muted); font-size:12px; margin-top:2px; }}
-  .tag {{ display:inline-block; background:rgba(124,92,255,.15); color:var(--accent);
-         font-size:11px; padding:1px 8px; border-radius:10px; margin-right:6px; }}
-  .full {{ grid-column:1/-1; }}
-  .chart {{ height:300px; }}
-  .footer {{ margin-top:24px; color:var(--muted); font-size:12px; text-align:center; }}
-  .kw {{ display:inline-block; margin:4px; padding:6px 14px; background:var(--card);
-        border:1px solid var(--border); border-radius:20px; font-size:14px; }}
-  .kw b {{ color:var(--hot); }}
-</style>
-</head>
-<body>
-<div class="wrap">
-  <header>
-    <h1>🤖 AI <span>热词</span>日报</h1>
-    <div class="date">{data['date']} · 每天自动更新</div>
-  </header>
-
-  <div class="card full" style="margin-bottom:16px;">
-    <h2>🔥 今日 AI 热词 TOP 15 <span class="count">(跨源词频统计)</span></h2>
-    <div id="kwbox"></div>
-  </div>
-
-  <div class="grid">
-    <div class="card">
-      <h2>🏆 趋势模型 <span class="count">{len(data['models'])}</span></h2>
-      <div id="modelList"></div>
-    </div>
-
-    <div class="card">
-      <h2>📄 最新论文 <span class="count">{len(data['papers'])}</span></h2>
-      <div id="paperList"></div>
-    </div>
-
-    <div class="card full">
-      <h2>🦾 具身机器人 <span class="count">{len(data['robotics'])}</span> <span class="tag">Embodied AI</span></h2>
-      <div id="robotList"></div>
-    </div>
-
-    <div class="card">
-      <h2>🛠 AI 新产品 <span class="count">{len(data['products'])}</span></h2>
-      <div id="productList"></div>
-    </div>
-
-    <div class="card">
-      <h2>💬 社区讨论 <span class="count">{len(data['discussions'])}</span></h2>
-      <div id="discussionList"></div>
-    </div>
-
-    <div class="card">
-      <h2>📦 开发者仓库 <span class="count">{len(data['repos'])}</span></h2>
-      <div id="repoList"></div>
-    </div>
-
-    <div class="card">
-      <h2>📊 模型热度分布</h2>
-      <div id="chart" class="chart"></div>
-    </div>
-  </div>
-
-  <div class="footer">数据来源: HuggingFace · arXiv · Product Hunt · Hacker News · GitHub | 每天 8:00 自动更新</div>
-</div>
-
-<script>
-const DATA = {json_str};
-
-// 热词
-const kwbox = document.getElementById('kwbox');
-const SRC_LABEL = {{HF:'HuggingFace', GitHub:'GitHub', arXiv:'arXiv', HN:'HackerNews', PH:'ProductHunt'}};
-kwbox.innerHTML = (DATA.keywords||[]).map(k => {{
-  var srcs = (k.sources||[]).map(s => SRC_LABEL[s]||s).join('/');
-  var tag = srcs ? ' <i style="color:var(--muted);font-size:11px">' + srcs + '</i>' : '';
-  var badge = k.cross ? ' <span class="tag" style="background:rgba(255,71,87,.18);color:#ff8a95">🌐 全网热点</span>' : '';
-  return '<span class="kw">' + k.word + badge + ' <b>×' + k.count + '</b>' + tag + '</span>';
-}}).join('');
-
-function renderList(el, items, opts) {{
-  el.innerHTML = items.map((it,i) => `
-    <div class="item">
-      <div class="rank">${{i+1}}</div>
-      <div class="name">
-        <a href="${{it.url||'#'}}" target="_blank">${{it.keyword}}</a>
-        <div class="meta">${{it.desc||''}}</div>
-      </div>
-    </div>`).join('');
-}}
-renderList(document.getElementById('modelList'), DATA.models);
-renderList(document.getElementById('paperList'), DATA.papers);
-renderList(document.getElementById('robotList'), DATA.robotics);
-renderList(document.getElementById('productList'), DATA.products);
-renderList(document.getElementById('discussionList'), DATA.discussions);
-renderList(document.getElementById('repoList'), DATA.repos);
-
-// ECharts 模型热度 (CDN 加载失败时降级,不影响其他内容)
-if (typeof echarts !== 'undefined') {{
-  const chart = echarts.init(document.getElementById('chart'));
-  const top = DATA.models.slice(0,8).reverse();
-  chart.setOption({{
-    tooltip: {{}},
-    grid: {{left: 10, right: 40, top: 10, bottom: 10, containLabel: true}},
-    xAxis: {{ type: 'value', splitLine: {{ lineStyle: {{ color: '#2a2e3d' }} }} }},
-    yAxis: {{ type: 'category', data: top.map(m => m.keyword.split('/').pop()) }},
-    series: [{{
-      type: 'bar',
-      data: top.map(m => m.score),
-      itemStyle: {{ color: '#7c5cff' }},
-      label: {{ show: true, position: 'right' }}
-    }}]
-  }});
-}} else {{
-  document.getElementById('chart').innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">📊 图表库加载失败,可点击刷新重试</div>';
-}}
-</script>
-</body>
-</html>"""
-    with open(SITE_DIR / 'index.html', 'w') as f:
+    with open(SITE_DIR / 'index.html', 'w', encoding='utf-8') as f:
         f.write(html)
     print(f'🌐 网站已生成: {SITE_DIR}/index.html')
 
