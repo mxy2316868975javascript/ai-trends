@@ -1,144 +1,307 @@
 {
- "date": "2026-09-08",
- "generated_at": "2026-09-08T03:14:48.446084+00:00",
+ "date": "2026-09-09",
+ "generated_at": "2026-09-09T03:16:18.476740+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
-   "score": 14280,
-   "desc": "6,416,358 downloads · 14280 likes",
+   "score": 14399,
+   "desc": "6,712,160 downloads · 14399 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
    "source": "huggingface"
   },
   {
-   "keyword": "MiniMaxAI/MiniMax-H3",
-   "score": 5013,
-   "desc": "4,990,034 downloads · 5013 likes",
-   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+   "keyword": "sentence-transformers/all-MiniLM-L6-v2",
+   "score": 5628,
+   "desc": "253,331,994 downloads · 5628 likes",
+   "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
    "source": "huggingface"
   },
   {
    "keyword": "Qwen/Qwen3.8-Flash-Next",
-   "score": 4982,
-   "desc": "474,693 downloads · 4982 likes",
+   "score": 5009,
+   "desc": "503,263 downloads · 5009 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
    "source": "huggingface"
   },
   {
    "keyword": "unsloth/Qwen3.8-27B-GGUF",
-   "score": 3645,
-   "desc": "10,479,045 downloads · 3645 likes",
+   "score": 3708,
+   "desc": "10,675,683 downloads · 3708 likes",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "Lightricks/LTX-2.5",
-   "score": 3089,
-   "desc": "1,584,382 downloads · 3089 likes",
+   "score": 3184,
+   "desc": "1,644,796 downloads · 3184 likes",
    "url": "https://huggingface.co/Lightricks/LTX-2.5",
    "source": "huggingface"
   },
   {
    "keyword": "zai-org/GLM-5.3-Flash",
-   "score": 2135,
-   "desc": "784,005 downloads · 2135 likes",
+   "score": 2173,
+   "desc": "826,875 downloads · 2173 likes",
    "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
    "source": "huggingface"
   },
   {
-   "keyword": "zai-org/GLM-5.3",
-   "score": 1753,
-   "desc": "442,064 downloads · 1753 likes",
-   "url": "https://huggingface.co/zai-org/GLM-5.3",
-   "source": "huggingface"
-  },
-  {
-   "keyword": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-   "score": 801,
-   "desc": "251,611 downloads · 801 likes",
-   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-   "source": "huggingface"
-  },
-  {
    "keyword": "XHToken/Spark-X2.5-4B",
-   "score": 744,
-   "desc": "7,216 downloads · 744 likes",
+   "score": 860,
+   "desc": "10,661 downloads · 860 likes",
    "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
    "source": "huggingface"
   },
   {
-   "keyword": "google/timesfm-3.0-pytorch",
-   "score": 580,
-   "desc": "271,713 downloads · 580 likes",
-   "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+   "keyword": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+   "score": 819,
+   "desc": "313,547 downloads · 819 likes",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+   "source": "huggingface"
+  },
+  {
+   "keyword": "openbmb/MiniCPM5-2B",
+   "score": 697,
+   "desc": "2,879 downloads · 697 likes",
+   "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
    "source": "huggingface"
   },
   {
    "keyword": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-   "score": 566,
-   "desc": "403,292 downloads · 566 likes",
+   "score": 663,
+   "desc": "479,597 downloads · 663 likes",
    "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "source": "huggingface"
+  },
+  {
+   "keyword": "google/timesfm-3.0-pytorch",
+   "score": 641,
+   "desc": "444,052 downloads · 641 likes",
+   "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
    "source": "huggingface"
   }
  ],
  "datasets": [
   {
    "keyword": "📊 nyu-mll/glue",
-   "score": 740,
+   "score": 777,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/nyu-mll/glue",
    "source": "huggingface"
   },
   {
    "keyword": "📊 rajpurkar/squad",
-   "score": 718,
+   "score": 761,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/rajpurkar/squad",
    "source": "huggingface"
   },
   {
    "keyword": "📊 stanfordnlp/imdb",
-   "score": 710,
+   "score": 753,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/stanfordnlp/imdb",
    "source": "huggingface"
   },
   {
    "keyword": "📊 markov-ai/cad-1000-hours",
-   "score": 391,
+   "score": 404,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/markov-ai/cad-1000-hours",
    "source": "huggingface"
   }
  ],
- "papers": [],
- "robotics": [],
+ "papers": [
+  {
+   "keyword": "ProcArena: A Multi-Scenario Benchmark for LLMs on Direct and Interactive PL/SQL Development from Natural Language",
+   "score": 0,
+   "desc": "Large language models (LLMs) have shown strong potential for translating natural-language (NL) requi",
+   "url": "http://arxiv.org/abs/2609.06527v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution",
+   "score": 0,
+   "desc": "Recursive Super-Resolution (SR) extends fixed-scale SR to extreme magnification by repeatedly feedin",
+   "url": "http://arxiv.org/abs/2609.06490v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Power Mean Estimation in Stochastic Continuous Monte Carlo Tree Search",
+   "score": 0,
+   "desc": "Monte Carlo Tree Search (MCTS) has demonstrated success in online planning for deterministic environ",
+   "url": "http://arxiv.org/abs/2609.06489v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Second-Order Smooth Planning with Optimal-Transport Bellman Smoothing",
+   "score": 0,
+   "desc": "Planning with a generative model aims to estimate the value of a state using as few simulator calls ",
+   "url": "http://arxiv.org/abs/2609.06484v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints",
+   "score": 0,
+   "desc": "Vision-and-Language Navigation in Continuous Environments (VLN-CE) requires an embodied agent to nav",
+   "url": "http://arxiv.org/abs/2609.06476v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification",
+   "score": 0,
+   "desc": "A provider of a high-risk AI system must keep records that make a decision traceable, and for agenti",
+   "url": "http://arxiv.org/abs/2609.06445v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Collision Snapshot Guided Time-Reversed Safety-Critical Scenario Generation",
+   "score": 0,
+   "desc": "The generation of safety-critical traffic scenarios is essential for training and evaluating autonom",
+   "url": "http://arxiv.org/abs/2609.06433v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "On BatchNorm Forward Modes in Value-Based Reinforcement Learning",
+   "score": 0,
+   "desc": "Batch normalization (BN) substantially improves sample efficiency in continuous-control actor-critic",
+   "url": "http://arxiv.org/abs/2609.06421v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts",
+   "score": 0,
+   "desc": "Test-time scaling produces cohorts of reasoning rollouts, yet there is no standard label-free accoun",
+   "url": "http://arxiv.org/abs/2609.06403v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Building Trustworthy Graph-Agentic RAG for Social Good: Architectures, Failure Propagation, and Assurance by Construction",
+   "score": 0,
+   "desc": "Graph-agentic retrieval-augmented generation combines structured evidence with adaptive controllers ",
+   "url": "http://arxiv.org/abs/2609.06391v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Parameterized and Streaming Algorithms for Euclidean Fair $k$-Center Clustering",
+   "score": 0,
+   "desc": "Motivated by the growing importance of fairness in machine learning, fair $k$-center clustering has ",
+   "url": "http://arxiv.org/abs/2609.06384v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Recovering Weak Signals with Normalizing Flows",
+   "score": 0,
+   "desc": "In many scientific disciplines, weak signals of interest are obscured by dominant nuisance signals t",
+   "url": "http://arxiv.org/abs/2609.06382v1",
+   "source": "arxiv"
+  }
+ ],
+ "robotics": [
+  {
+   "keyword": "Online, Reachability-Aware, Sampling-Based Motion Planning",
+   "score": 0,
+   "desc": "Sampling-Based Model-Predictive Control (MPC) algorithms are a flexible class of controllers used fo",
+   "url": "http://arxiv.org/abs/2609.09073v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Rethinking Learned Occupancy in Autonomous Active Mapping with Observation-Gated Filtering",
+   "score": 0,
+   "desc": "Autonomous 3D active mapping requires a space robot to choose where to sense while building the geom",
+   "url": "http://arxiv.org/abs/2609.09069v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "A Distributed Consensus Particle Filter for Target Tracking using Autonomous Surface Vessels",
+   "score": 0,
+   "desc": "Maritime target tracking over large distances often requires multi-agent teams without centralized c",
+   "url": "http://arxiv.org/abs/2609.09066v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "DYAD: A Multimodal Dataset of Co-Located Human Assistance",
+   "score": 0,
+   "desc": "An embodied assistant working beside a person must track task state, recognize help seeking, choose ",
+   "url": "http://arxiv.org/abs/2609.09023v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild",
+   "score": 0,
+   "desc": "Spherical observations provide global visual context for 3D scene understanding. However, visual inf",
+   "url": "http://arxiv.org/abs/2609.09012v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+   "score": 0,
+   "desc": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a syste",
+   "url": "http://arxiv.org/abs/2609.08965v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Model Predictive Control of Tensegrity Robots via Contact-Aware Graph Neural Dynamics Model",
+   "score": 0,
+   "desc": "Tensegrity robots offer lightweight, compliant mobility over challenging terrain but remain difficul",
+   "url": "http://arxiv.org/abs/2609.08958v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Remotely Detectable Keyed Communication through Motion",
+   "score": 0,
+   "desc": "Messages from electronic devices are conventionally received as text, audio, or radio signals. But r",
+   "url": "http://arxiv.org/abs/2609.08920v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Visible-Reachable Workspace for Perception-Aware Humanoid Design",
+   "score": 0,
+   "desc": "Workspace analysis measures where a robot can place its end effector. For visually guided manipulati",
+   "url": "http://arxiv.org/abs/2609.08905v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory",
+   "score": 0,
+   "desc": "Language-guided robots need persistent scene memories to follow instructions, revisit objects, and r",
+   "url": "http://arxiv.org/abs/2609.08886v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning",
+   "score": 0,
+   "desc": "Model-based reinforcement learning (MBRL) is a family of RL methods that learn a model of the enviro",
+   "url": "http://arxiv.org/abs/2609.08853v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "FIRE3D: Feed-forward Interactive 3D Scene Reconstruction Within A Minute",
+   "score": 0,
+   "desc": "We present FIRE3D, a unified framework that takes a single RGB image or casual RGB video and transfo",
+   "url": "http://arxiv.org/abs/2609.08848v1",
+   "source": "robotics"
+  }
+ ],
  "products": [
   {
-   "keyword": "Airuncode",
+   "keyword": "Widgo",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/airuncode",
+   "url": "https://www.producthunt.com/products/paillor",
    "source": "producthunt"
   },
   {
-   "keyword": "PR Lens by Coldtea.ai",
+   "keyword": "Kombai Gallery",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/coldtea",
+   "url": "https://www.producthunt.com/products/kombai",
    "source": "producthunt"
   },
   {
-   "keyword": "Notify.domains",
+   "keyword": "SODAX SDK",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/notify-domains",
-   "source": "producthunt"
-  },
-  {
-   "keyword": "AI Toolbox 3.0",
-   "score": 0,
-   "desc": "",
-   "url": "https://www.producthunt.com/products/chatgpt-toolbox",
+   "url": "https://www.producthunt.com/products/sodax",
    "source": "producthunt"
   }
  ],
@@ -216,59 +379,73 @@
  ],
  "repos": [
   {
-   "keyword": "sponsors/affaan-m",
-   "score": 1897,
-   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
-   "url": "https://github.com/sponsors/affaan-m",
-   "source": "github"
-  },
-  {
-   "keyword": "sponsors/coreyhaines31",
-   "score": 580,
-   "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-   "url": "https://github.com/sponsors/coreyhaines31",
-   "source": "github"
-  },
-  {
-   "keyword": "The-Swarm-Corporation/AutoHedge",
-   "score": 517,
-   "desc": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automa",
-   "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
-   "source": "github"
-  },
-  {
    "keyword": "heygen-com/hyperframes",
-   "score": 474,
+   "score": 2627,
    "desc": "Write HTML. Render video. Built for agents.",
    "url": "https://github.com/heygen-com/hyperframes",
    "source": "github"
   },
   {
-   "keyword": "ruvnet/ruflo",
-   "score": 394,
-   "desc": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build co",
-   "url": "https://github.com/ruvnet/ruflo",
+   "keyword": "sponsors/affaan-m",
+   "score": 1427,
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
+   "url": "https://github.com/sponsors/affaan-m",
+   "source": "github"
+  },
+  {
+   "keyword": "jo-inc/camofox-browser",
+   "score": 871,
+   "desc": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwrig",
+   "url": "https://github.com/jo-inc/camofox-browser",
+   "source": "github"
+  },
+  {
+   "keyword": "cathrynlavery/diagram-design",
+   "score": 710,
+   "desc": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "source": "github"
+  },
+  {
+   "keyword": "sponsors/coreyhaines31",
+   "score": 666,
+   "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+   "url": "https://github.com/sponsors/coreyhaines31",
+   "source": "github"
+  },
+  {
+   "keyword": "ayghri/i-have-adhd",
+   "score": 656,
+   "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "source": "github"
+  },
+  {
+   "keyword": "sponsors/mksglu",
+   "score": 651,
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and en",
+   "url": "https://github.com/sponsors/mksglu",
+   "source": "github"
+  },
+  {
+   "keyword": "The-Swarm-Corporation/AutoHedge",
+   "score": 494,
+   "desc": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automa",
+   "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
    "source": "github"
   },
   {
    "keyword": "openai/skills",
-   "score": 351,
+   "score": 490,
    "desc": "Skills Catalog for Codex",
    "url": "https://github.com/openai/skills",
    "source": "github"
   },
   {
-   "keyword": "bytedance/deer-flow",
-   "score": 195,
-   "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories",
-   "url": "https://github.com/bytedance/deer-flow",
-   "source": "github"
-  },
-  {
-   "keyword": "jo-inc/camofox-browser",
-   "score": 135,
-   "desc": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwrig",
-   "url": "https://github.com/jo-inc/camofox-browser",
+   "keyword": "sponsors/obra",
+   "score": 452,
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "url": "https://github.com/sponsors/obra",
    "source": "github"
   }
  ],
@@ -417,146 +594,156 @@
  "skills": [
   {
    "keyword": "⚡ obra/superpowers",
-   "score": 282880,
+   "score": 283436,
    "desc": "An agentic skills framework & software development methodology that works.",
    "url": "https://github.com/obra/superpowers",
    "source": "skills"
   },
   {
    "keyword": "⚡ mattpocock/skills",
-   "score": 256198,
+   "score": 257055,
    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
    "url": "https://github.com/mattpocock/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ affaan-m/ECC",
-   "score": 252972,
+   "score": 254400,
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencod",
    "url": "https://github.com/affaan-m/ECC",
    "source": "skills"
   },
   {
    "keyword": "⚡ anthropics/skills",
-   "score": 175065,
+   "score": 175265,
    "desc": "Public repository for Agent Skills",
    "url": "https://github.com/anthropics/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Shubhamsaboo/awesome-llm-apps",
-   "score": 136556,
+   "score": 136712,
    "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "source": "skills"
   },
   {
    "keyword": "⚡ addyosmani/agent-skills",
-   "score": 92847,
+   "score": 93037,
    "desc": "Production-grade engineering skills for AI coding agents.",
    "url": "https://github.com/addyosmani/agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Leonxlnx/taste-skill",
-   "score": 85191,
+   "score": 85507,
    "desc": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
    "url": "https://github.com/Leonxlnx/taste-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ bytedance/deer-flow",
-   "score": 81887,
+   "score": 82092,
    "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and ",
    "url": "https://github.com/bytedance/deer-flow",
    "source": "skills"
   },
   {
    "keyword": "⚡ mvanhorn/last30days-skill",
-   "score": 61539,
+   "score": 61630,
    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
    "url": "https://github.com/mvanhorn/last30days-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ calesthio/OpenMontage",
-   "score": 56589,
+   "score": 56708,
    "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn",
    "url": "https://github.com/calesthio/OpenMontage",
    "source": "skills"
   },
   {
-   "keyword": "⚡ hesreallyhim/awesome-claude-code",
-   "score": 53665,
-   "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th",
-   "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "source": "skills"
-  },
-  {
    "keyword": "⚡ tt-a1i/archify",
-   "score": 53196,
+   "score": 54919,
    "desc": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp ex",
    "url": "https://github.com/tt-a1i/archify",
    "source": "skills"
   },
   {
+   "keyword": "⚡ hesreallyhim/awesome-claude-code",
+   "score": 53718,
+   "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th",
+   "url": "https://github.com/hesreallyhim/awesome-claude-code",
+   "source": "skills"
+  },
+  {
    "keyword": "⚡ coreyhaines31/marketingskills",
-   "score": 48221,
+   "score": 48897,
    "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
    "url": "https://github.com/coreyhaines31/marketingskills",
    "source": "skills"
   },
   {
    "keyword": "⚡ kepano/obsidian-skills",
-   "score": 48001,
+   "score": 48056,
    "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
    "url": "https://github.com/kepano/obsidian-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ jeecgboot/JeecgBoot",
-   "score": 47667,
+   "score": 47686,
    "desc": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生",
    "url": "https://github.com/jeecgboot/JeecgBoot",
    "source": "skills"
   },
   {
    "keyword": "⚡ zhayujie/CowAgent",
-   "score": 46819,
-   "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel",
+   "score": 46841,
+   "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, ",
    "url": "https://github.com/zhayujie/CowAgent",
    "source": "skills"
   },
   {
    "keyword": "⚡ sickn33/agentic-awesome-skills",
-   "score": 46126,
-   "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,10",
+   "score": 46169,
+   "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,11",
    "url": "https://github.com/sickn33/agentic-awesome-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ blader/humanizer",
-   "score": 45004,
+   "score": 45485,
    "desc": "Agent skill that removes signs of AI-generated writing from text",
    "url": "https://github.com/blader/humanizer",
    "source": "skills"
   },
   {
    "keyword": "⚡ K-Dense-AI/scientific-agent-skills",
-   "score": 43652,
+   "score": 43903,
    "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated ski",
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ danny-avila/LibreChat",
-   "score": 42903,
+   "score": 42942,
    "desc": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Ve",
    "url": "https://github.com/danny-avila/LibreChat",
    "source": "skills"
   }
  ],
  "keywords": [
+  {
+   "word": "SQL",
+   "count": 2,
+   "sources": [
+    "HN",
+    "arXiv"
+   ],
+   "cross": true,
+   "score": 20
+  },
   {
    "word": "Qwen3.8-27B",
    "count": 1,
@@ -567,7 +754,7 @@
    "score": 20
   },
   {
-   "word": "MiniMax-H3",
+   "word": "all-MiniLM-L6-v2",
    "count": 1,
    "sources": [
     "HF"
@@ -583,6 +770,33 @@
    ],
    "cross": false,
    "score": 20
+  },
+  {
+   "word": "Proc",
+   "count": 1,
+   "sources": [
+    "arXiv"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
+   "word": "Arena",
+   "count": 1,
+   "sources": [
+    "arXiv"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
+   "word": "Direct",
+   "count": 1,
+   "sources": [
+    "arXiv"
+   ],
+   "cross": false,
+   "score": 0
   },
   {
    "word": "Airfoil",
@@ -612,6 +826,15 @@
    "score": 0
   },
   {
+   "word": "hyperframes",
+   "count": 1,
+   "sources": [
+    "GitHub"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
    "word": "affaan-m",
    "count": 1,
    "sources": [
@@ -621,7 +844,7 @@
    "score": 0
   },
   {
-   "word": "coreyhaines31",
+   "word": "camofox-browser",
    "count": 1,
    "sources": [
     "GitHub"
@@ -630,16 +853,7 @@
    "score": 0
   },
   {
-   "word": "AutoHedge",
-   "count": 1,
-   "sources": [
-    "GitHub"
-   ],
-   "cross": false,
-   "score": 0
-  },
-  {
-   "word": "Airuncode",
+   "word": "Widgo",
    "count": 1,
    "sources": [
     "PH"
@@ -648,7 +862,7 @@
    "score": 0
   },
   {
-   "word": "PR Lens by Coldtea.ai",
+   "word": "Kombai Gallery",
    "count": 1,
    "sources": [
     "PH"
@@ -657,7 +871,7 @@
    "score": 0
   },
   {
-   "word": "Notify.domains",
+   "word": "SODAX SDK",
    "count": 1,
    "sources": [
     "PH"
