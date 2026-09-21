@@ -1,123 +1,208 @@
 {
- "date": "2026-09-20",
- "generated_at": "2026-09-20T03:35:41.287066+00:00",
+ "date": "2026-09-21",
+ "generated_at": "2026-09-21T03:30:19.107327+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
-   "score": 15778,
-   "desc": "7,365,368 downloads · 15778 likes",
+   "score": 15868,
+   "desc": "7,331,932 downloads · 15868 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
    "source": "huggingface"
   },
   {
-   "keyword": "Qwen/Qwen3.8-Flash-Next",
-   "score": 5460,
-   "desc": "742,586 downloads · 5460 likes",
-   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-   "source": "huggingface"
-  },
-  {
    "keyword": "Lightricks/LTX-2.5",
-   "score": 4457,
-   "desc": "1,607,815 downloads · 4457 likes",
+   "score": 4565,
+   "desc": "1,609,559 downloads · 4565 likes",
    "url": "https://huggingface.co/Lightricks/LTX-2.5",
    "source": "huggingface"
   },
   {
    "keyword": "unsloth/Qwen3.8-27B-GGUF",
-   "score": 4385,
-   "desc": "7,118,363 downloads · 4385 likes",
+   "score": 4434,
+   "desc": "6,941,478 downloads · 4434 likes",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "deepseek-ai/DeepSeek-V4.1-Flash",
-   "score": 3329,
-   "desc": "482,270 downloads · 3329 likes",
+   "score": 3443,
+   "desc": "496,684 downloads · 3443 likes",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
    "source": "huggingface"
   },
   {
-   "keyword": "openbmb/MiniCPM5-2B",
-   "score": 1600,
-   "desc": "389,555 downloads · 1600 likes",
-   "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
-   "source": "huggingface"
-  },
-  {
-   "keyword": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-   "score": 1433,
-   "desc": "1,154,265 downloads · 1433 likes",
-   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-   "source": "huggingface"
-  },
-  {
    "keyword": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-   "score": 1254,
-   "desc": "1,516,960 downloads · 1254 likes",
+   "score": 1522,
+   "desc": "1,908,396 downloads · 1522 likes",
    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
    "source": "huggingface"
   },
   {
+   "keyword": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "score": 1487,
+   "desc": "1,217,204 downloads · 1487 likes",
+   "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "source": "huggingface"
+  },
+  {
+   "keyword": "convaiinnovations/laya",
+   "score": 1177,
+   "desc": "0 downloads · 1177 likes",
+   "url": "https://huggingface.co/convaiinnovations/laya",
+   "source": "huggingface"
+  },
+  {
    "keyword": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-   "score": 972,
-   "desc": "1,256,962 downloads · 972 likes",
+   "score": 1010,
+   "desc": "1,301,417 downloads · 1010 likes",
    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "m-a-p/YuE2-3B",
-   "score": 883,
-   "desc": "15,446 downloads · 883 likes",
+   "score": 920,
+   "desc": "17,403 downloads · 920 likes",
    "url": "https://huggingface.co/m-a-p/YuE2-3B",
    "source": "huggingface"
   },
   {
    "keyword": "XingChen-AGI/Xing4.0-29B-A4B",
-   "score": 671,
-   "desc": "7,278 downloads · 671 likes",
+   "score": 914,
+   "desc": "12,617 downloads · 914 likes",
    "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
    "source": "huggingface"
   },
   {
-   "keyword": "convaiinnovations/laya",
-   "score": 598,
-   "desc": "0 downloads · 598 likes",
-   "url": "https://huggingface.co/convaiinnovations/laya",
+   "keyword": "Qwen/Qwen-Image-2.1",
+   "score": 854,
+   "desc": "183 downloads · 854 likes",
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+   "source": "huggingface"
+  },
+  {
+   "keyword": "ukisai/Swift-Qwen3.8-27b",
+   "score": 511,
+   "desc": "10,962 downloads · 511 likes",
+   "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+   "source": "huggingface"
+  },
+  {
+   "keyword": "harshatheg/Qwen-2.5-1B-RLCD",
+   "score": 481,
+   "desc": "0 downloads · 481 likes",
+   "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
+   "source": "huggingface"
+  },
+  {
+   "keyword": "AlexWortega/openjev",
+   "score": 323,
+   "desc": "0 downloads · 323 likes",
+   "url": "https://huggingface.co/AlexWortega/openjev",
    "source": "huggingface"
   }
  ],
  "datasets": [
   {
-   "keyword": "📊 nyu-mll/glue",
-   "score": 1071,
+   "keyword": "📊 markov-ai/cad-1000-hours",
+   "score": 492,
    "desc": "Trending Dataset",
-   "url": "https://huggingface.co/datasets/nyu-mll/glue",
-   "source": "huggingface"
-  },
-  {
-   "keyword": "📊 stanfordnlp/imdb",
-   "score": 1014,
-   "desc": "Trending Dataset",
-   "url": "https://huggingface.co/datasets/stanfordnlp/imdb",
-   "source": "huggingface"
-  },
-  {
-   "keyword": "📊 rajpurkar/squad",
-   "score": 998,
-   "desc": "Trending Dataset",
-   "url": "https://huggingface.co/datasets/rajpurkar/squad",
+   "url": "https://huggingface.co/datasets/markov-ai/cad-1000-hours",
    "source": "huggingface"
   }
  ],
- "papers": [],
+ "papers": [
+  {
+   "keyword": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+   "score": 0,
+   "desc": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts e",
+   "url": "http://arxiv.org/abs/2609.22086v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+   "score": 0,
+   "desc": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable ",
+   "url": "http://arxiv.org/abs/2609.22068v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
+   "score": 0,
+   "desc": "Users increasingly delegate work to autonomous AI agents, yet evaluations typically measure task com",
+   "url": "http://arxiv.org/abs/2609.22067v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Gricea: An Open Science Platform for Conversational AI Research",
+   "score": 0,
+   "desc": "We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI desig",
+   "url": "http://arxiv.org/abs/2609.22039v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "DiaVLo: Diagnosing Behaviours of Vision-Language Models",
+   "score": 0,
+   "desc": "Vision-language models (VLMs) rely on storing and transferring appropriate information across their ",
+   "url": "http://arxiv.org/abs/2609.22008v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Bayesian Belief Layer for Controllable Opinion Dynamics in LLM Agents",
+   "score": 0,
+   "desc": "LLM agents in social simulation revise their opinions implicitly, in context: how open an agent is t",
+   "url": "http://arxiv.org/abs/2609.21997v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
+   "score": 0,
+   "desc": "Large language models can hold knowledge they do not report. A model may sandbag on a capability eva",
+   "url": "http://arxiv.org/abs/2609.21996v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities",
+   "score": 0,
+   "desc": "We introduce NemotronLabs VoiceChat, an open full-duplex speech-to-speech model with native tool-cal",
+   "url": "http://arxiv.org/abs/2609.21967v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "Learning Cardiac Features: ECG Biometrics Across Time and~Exercise",
+   "score": 0,
+   "desc": "Electrocardiograms (ECGs) carry subject-specific patterns enabling reliable individual discriminatio",
+   "url": "http://arxiv.org/abs/2609.21962v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "When Should a Failing Robot Ask? Initiating Corrective Human-Robot Dialogue from Audited Sensor Evidence",
+   "score": 0,
+   "desc": "A robot that fails at a task faces the first decision in corrective dialogue: act on its own diagnos",
+   "url": "http://arxiv.org/abs/2609.21942v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "AutoViewMem: Self-Configuring Orthogonal Views for Conversational Long-Term Memory",
+   "score": 0,
+   "desc": "Long-term memory is essential for large language model (LLM) agents to maintain consistency and pers",
+   "url": "http://arxiv.org/abs/2609.21940v1",
+   "source": "arxiv"
+  },
+  {
+   "keyword": "What Should We Ask Next? Retrieval-Aware Question Learning under Partial Evidence",
+   "score": 0,
+   "desc": "Interactive retrieval under partial evidence is a sequential information-acquisition problem: an age",
+   "url": "http://arxiv.org/abs/2609.21924v1",
+   "source": "arxiv"
+  }
+ ],
  "robotics": [],
  "products": [
   {
-   "keyword": "Basedash Models",
+   "keyword": "YABAI",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/basedash",
+   "url": "https://www.producthunt.com/products/yabai",
    "source": "producthunt"
   }
  ],
@@ -196,65 +281,79 @@
  "repos": [
   {
    "keyword": "cloudflare/security-audit-skill",
-   "score": 3155,
+   "score": 2428,
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "url": "https://github.com/cloudflare/security-audit-skill",
    "source": "github"
   },
   {
    "keyword": "sponsors/trycua",
-   "score": 859,
+   "score": 1018,
    "desc": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data gene",
    "url": "https://github.com/sponsors/trycua",
    "source": "github"
   },
   {
+   "keyword": "sponsors/affaan-m",
+   "score": 826,
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
+   "url": "https://github.com/sponsors/affaan-m",
+   "source": "github"
+  },
+  {
    "keyword": "addyosmani/agent-skills",
-   "score": 556,
+   "score": 736,
    "desc": "Production-grade engineering skills for AI coding agents.",
    "url": "https://github.com/addyosmani/agent-skills",
    "source": "github"
   },
   {
+   "keyword": "higgsfield-ai/higgsfield",
+   "score": 465,
+   "desc": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with bi",
+   "url": "https://github.com/higgsfield-ai/higgsfield",
+   "source": "github"
+  },
+  {
    "keyword": "anthropics/claude-code",
-   "score": 483,
+   "score": 419,
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster ",
    "url": "https://github.com/anthropics/claude-code",
    "source": "github"
   },
   {
    "keyword": "coder/coder",
-   "score": 402,
+   "score": 379,
    "desc": "Secure environments for developers and their agents",
    "url": "https://github.com/coder/coder",
    "source": "github"
   },
   {
-   "keyword": "anthropics/knowledge-work-plugins",
-   "score": 281,
-   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "keyword": "vercel-labs/json-render",
+   "score": 291,
+   "desc": "The Generative UI framework",
+   "url": "https://github.com/vercel-labs/json-render",
    "source": "github"
   },
   {
-   "keyword": "cactus-compute/needle",
-   "score": 234,
-   "desc": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones",
-   "url": "https://github.com/cactus-compute/needle",
+   "keyword": "anthropics/financial-services",
+   "score": 260,
+   "desc": "",
+   "url": "https://github.com/anthropics/financial-services",
    "source": "github"
   },
   {
-   "keyword": "higgsfield-ai/higgsfield",
-   "score": 196,
-   "desc": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with bi",
-   "url": "https://github.com/higgsfield-ai/higgsfield",
+   "keyword": "mihail911/modern-software-dev-assignments",
+   "score": 172,
+   "desc": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+   "url": "https://github.com/mihail911/modern-software-dev-assignments",
    "source": "github"
   },
   {
-   "keyword": "docling-project/docling",
-   "score": 129,
-   "desc": "Get your documents ready for gen AI",
-   "url": "https://github.com/docling-project/docling",
+   "keyword": "BuilderIO/agent-native",
+   "score": 98,
+   "desc": "A framework for building agentic apps",
+   "url": "https://github.com/BuilderIO/agent-native",
    "source": "github"
   }
  ],
@@ -403,157 +502,158 @@
  "skills": [
   {
    "keyword": "⚡ obra/superpowers",
-   "score": 288873,
+   "score": 289339,
    "desc": "An agentic skills framework & software development methodology that works.",
    "url": "https://github.com/obra/superpowers",
    "source": "skills"
   },
   {
    "keyword": "⚡ mattpocock/skills",
-   "score": 265912,
+   "score": 266545,
    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
    "url": "https://github.com/mattpocock/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ affaan-m/ECC",
-   "score": 263019,
+   "score": 263885,
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencod",
    "url": "https://github.com/affaan-m/ECC",
    "source": "skills"
   },
   {
    "keyword": "⚡ anthropics/skills",
-   "score": 177188,
+   "score": 177348,
    "desc": "Public repository for Agent Skills",
    "url": "https://github.com/anthropics/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Shubhamsaboo/awesome-llm-apps",
-   "score": 139004,
+   "score": 139189,
    "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "source": "skills"
   },
   {
    "keyword": "⚡ JuliusBrussee/caveman",
-   "score": 106802,
+   "score": 107002,
    "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "skills"
   },
   {
    "keyword": "⚡ addyosmani/agent-skills",
-   "score": 97122,
+   "score": 97768,
    "desc": "Production-grade engineering skills for AI coding agents.",
    "url": "https://github.com/addyosmani/agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Leonxlnx/taste-skill",
-   "score": 88516,
+   "score": 88833,
    "desc": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
    "url": "https://github.com/Leonxlnx/taste-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ bytedance/deer-flow",
-   "score": 82714,
+   "score": 82765,
    "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and ",
    "url": "https://github.com/bytedance/deer-flow",
    "source": "skills"
   },
   {
    "keyword": "⚡ tt-a1i/archify",
-   "score": 67585,
+   "score": 68383,
    "desc": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp ex",
    "url": "https://github.com/tt-a1i/archify",
    "source": "skills"
   },
   {
    "keyword": "⚡ mvanhorn/last30days-skill",
-   "score": 62365,
+   "score": 62470,
    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
    "url": "https://github.com/mvanhorn/last30days-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ calesthio/OpenMontage",
-   "score": 60196,
+   "score": 60489,
    "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn",
    "url": "https://github.com/calesthio/OpenMontage",
    "source": "skills"
   },
   {
    "keyword": "⚡ hesreallyhim/awesome-claude-code",
-   "score": 54326,
+   "score": 54369,
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
    "source": "skills"
   },
   {
    "keyword": "⚡ coreyhaines31/marketingskills",
-   "score": 50935,
+   "score": 51016,
    "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
    "url": "https://github.com/coreyhaines31/marketingskills",
    "source": "skills"
   },
   {
    "keyword": "⚡ blader/humanizer",
-   "score": 50297,
+   "score": 50682,
    "desc": "Agent skill that removes signs of AI-generated writing from text",
    "url": "https://github.com/blader/humanizer",
    "source": "skills"
   },
   {
    "keyword": "⚡ ayghri/i-have-adhd",
-   "score": 48771,
+   "score": 49311,
    "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "url": "https://github.com/ayghri/i-have-adhd",
    "source": "skills"
   },
   {
    "keyword": "⚡ kepano/obsidian-skills",
-   "score": 48616,
+   "score": 48664,
    "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
    "url": "https://github.com/kepano/obsidian-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ jeecgboot/JeecgBoot",
-   "score": 47903,
+   "score": 47916,
    "desc": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生",
    "url": "https://github.com/jeecgboot/JeecgBoot",
    "source": "skills"
   },
   {
    "keyword": "⚡ zhayujie/CowAgent",
-   "score": 47046,
+   "score": 47057,
    "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, ",
    "url": "https://github.com/zhayujie/CowAgent",
    "source": "skills"
   },
   {
    "keyword": "⚡ sickn33/agentic-awesome-skills",
-   "score": 46611,
-   "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,11",
+   "score": 46664,
+   "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,40",
    "url": "https://github.com/sickn33/agentic-awesome-skills",
    "source": "skills"
   }
  ],
  "keywords": [
   {
-   "word": "Qwen3.8-27B",
-   "count": 1,
+   "word": "Open",
+   "count": 2,
    "sources": [
-    "HF"
+    "HN",
+    "arXiv"
    ],
-   "cross": false,
+   "cross": true,
    "score": 20
   },
   {
-   "word": "Qwen3.8",
+   "word": "Qwen3.8-27B",
    "count": 1,
    "sources": [
     "HF"
@@ -571,6 +671,42 @@
    "score": 20
   },
   {
+   "word": "DeepSeek-V4.1",
+   "count": 1,
+   "sources": [
+    "HF"
+   ],
+   "cross": false,
+   "score": 20
+  },
+  {
+   "word": "Designer",
+   "count": 1,
+   "sources": [
+    "arXiv"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
+   "word": "Evolving Procedural Memory",
+   "count": 1,
+   "sources": [
+    "arXiv"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
+   "word": "User Traffic",
+   "count": 1,
+   "sources": [
+    "arXiv"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
    "word": "Airfoil",
    "count": 1,
    "sources": [
@@ -580,7 +716,7 @@
    "score": 0
   },
   {
-   "word": "Open",
+   "word": "Gemini",
    "count": 1,
    "sources": [
     "HN"
@@ -589,7 +725,7 @@
    "score": 0
   },
   {
-   "word": "Gemini",
+   "word": "Gaza",
    "count": 1,
    "sources": [
     "HN"
@@ -616,7 +752,7 @@
    "score": 0
   },
   {
-   "word": "agent-skills",
+   "word": "affaan-m",
    "count": 1,
    "sources": [
     "GitHub"
@@ -625,7 +761,7 @@
    "score": 0
   },
   {
-   "word": "Basedash Models",
+   "word": "YABAI",
    "count": 1,
    "sources": [
     "PH"
