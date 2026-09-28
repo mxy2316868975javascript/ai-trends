@@ -1,102 +1,102 @@
 {
- "date": "2026-09-27",
- "generated_at": "2026-09-27T03:51:54.562445+00:00",
+ "date": "2026-09-28",
+ "generated_at": "2026-09-28T03:51:46.760506+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
-   "score": 16360,
-   "desc": "6,652,309 downloads · 16360 likes",
+   "score": 16434,
+   "desc": "6,727,629 downloads · 16434 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
    "source": "huggingface"
   },
   {
-   "keyword": "Lightricks/LTX-2.5",
-   "score": 5237,
-   "desc": "1,604,804 downloads · 5237 likes",
-   "url": "https://huggingface.co/Lightricks/LTX-2.5",
-   "source": "huggingface"
-  },
-  {
    "keyword": "convaiinnovations/laya",
-   "score": 3914,
-   "desc": "0 downloads · 3914 likes",
+   "score": 4119,
+   "desc": "0 downloads · 4119 likes",
    "url": "https://huggingface.co/convaiinnovations/laya",
    "source": "huggingface"
   },
   {
    "keyword": "Qwen/Qwen-Image-2.1",
-   "score": 2406,
-   "desc": "48,361 downloads · 2406 likes",
+   "score": 2507,
+   "desc": "52,804 downloads · 2507 likes",
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
    "source": "huggingface"
   },
   {
    "keyword": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-   "score": 2145,
-   "desc": "3,247,527 downloads · 2145 likes",
+   "score": 2198,
+   "desc": "3,343,748 downloads · 2198 likes",
    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
    "source": "huggingface"
   },
   {
    "keyword": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-   "score": 1950,
-   "desc": "876,673 downloads · 1950 likes",
+   "score": 2106,
+   "desc": "964,220 downloads · 2106 likes",
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "XingChen-AGI/Xing4.0-29B-A4B",
-   "score": 1728,
-   "desc": "43,947 downloads · 1728 likes",
+   "score": 1784,
+   "desc": "45,028 downloads · 1784 likes",
    "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
    "source": "huggingface"
   },
   {
    "keyword": "TaichuAI/ZDTaichu5.0-9B",
-   "score": 1586,
-   "desc": "11,063 downloads · 1586 likes",
+   "score": 1681,
+   "desc": "11,612 downloads · 1681 likes",
    "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
    "source": "huggingface"
   },
   {
    "keyword": "Edge0/Audio8-ASR-Infinite",
-   "score": 835,
-   "desc": "7,859 downloads · 835 likes",
+   "score": 1146,
+   "desc": "19,434 downloads · 1146 likes",
    "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
    "source": "huggingface"
   },
   {
    "keyword": "Comfy-Org/Qwen-Image-2.1",
-   "score": 781,
-   "desc": "3,641,785 downloads · 781 likes",
+   "score": 810,
+   "desc": "3,987,373 downloads · 810 likes",
    "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
    "source": "huggingface"
   },
   {
    "keyword": "Altworld/Hemmingway-1",
-   "score": 712,
-   "desc": "5,590 downloads · 712 likes",
+   "score": 741,
+   "desc": "5,904 downloads · 741 likes",
    "url": "https://huggingface.co/Altworld/Hemmingway-1",
    "source": "huggingface"
   },
   {
+   "keyword": "XingChen-AGI/TeleOCR",
+   "score": 612,
+   "desc": "27,837 downloads · 612 likes",
+   "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
+   "source": "huggingface"
+  },
+  {
    "keyword": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
-   "score": 530,
-   "desc": "74,497 downloads · 530 likes",
+   "score": 558,
+   "desc": "75,079 downloads · 558 likes",
    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
    "source": "huggingface"
   },
   {
    "keyword": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
-   "score": 501,
-   "desc": "7,905 downloads · 501 likes",
+   "score": 525,
+   "desc": "8,839 downloads · 525 likes",
    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
    "source": "huggingface"
   },
   {
    "keyword": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
-   "score": 480,
-   "desc": "23,000 downloads · 480 likes",
+   "score": 493,
+   "desc": "25,661 downloads · 493 likes",
    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
    "source": "huggingface"
   }
@@ -104,112 +104,27 @@
  "datasets": [
   {
    "keyword": "📊 wikimedia/wikipedia",
-   "score": 1559,
+   "score": 1573,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/wikimedia/wikipedia",
    "source": "huggingface"
   }
  ],
- "papers": [
-  {
-   "keyword": "LLM Agents Can Easily Tamper With Their Own Traces",
-   "score": 0,
-   "desc": "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent trac",
-   "url": "http://arxiv.org/abs/2609.30266v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
-   "score": 0,
-   "desc": "Latent world models are typically trained to predict factual transitions, whereas model predictive c",
-   "url": "http://arxiv.org/abs/2609.30264v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "RAPID: Robot Agentic Programming from Demonstrations",
-   "score": 0,
-   "desc": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverag",
-   "url": "http://arxiv.org/abs/2609.30249v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "Rolling-WAM: World Action Models with Rolling Imagination",
-   "score": 0,
-   "desc": "World Action Models (WAMs) couple action generation with future visual prediction for robotic manipu",
-   "url": "http://arxiv.org/abs/2609.30247v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "Coding Agents for Generalized Task and Motion Planning Problems",
-   "score": 0,
-   "desc": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-ce",
-   "url": "http://arxiv.org/abs/2609.30233v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
-   "score": 0,
-   "desc": "Online misinformation increasingly appears in spoken formats such as news clips, podcasts, interview",
-   "url": "http://arxiv.org/abs/2609.30227v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "PoEM: Predicting RL Outcomes from Existing Policies",
-   "score": 0,
-   "desc": "Foundation models are post-trained with reinforcement learning (RL) to maximize specific rewards, su",
-   "url": "http://arxiv.org/abs/2609.30226v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
-   "score": 0,
-   "desc": "Existing point tracking models face a fundamental tradeoff: they can either track a sparse set of qu",
-   "url": "http://arxiv.org/abs/2609.30222v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority",
-   "score": 0,
-   "desc": "An acceptance protocol is developed for sensor-coordinate and polarity binding in mechatronic commis",
-   "url": "http://arxiv.org/abs/2609.30219v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "Minimally Invasive Steering of Language Models",
-   "score": 0,
-   "desc": "Pre-logit steering adapts a frozen language model to a test-time reward by adding vectors to its fin",
-   "url": "http://arxiv.org/abs/2609.30218v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
-   "score": 0,
-   "desc": "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts w",
-   "url": "http://arxiv.org/abs/2609.30217v1",
-   "source": "arxiv"
-  },
-  {
-   "keyword": "Underwater C3-JEPA: An Object-Centric Cross-View World Model for ROV Salvage",
-   "score": 0,
-   "desc": "We present Underwater C$^{3}$-JEPA (cross-view, control-conditioned, context-extended), an object-ce",
-   "url": "http://arxiv.org/abs/2609.30214v1",
-   "source": "arxiv"
-  }
- ],
+ "papers": [],
  "robotics": [],
  "products": [
+  {
+   "keyword": "GPT-6 Sol & Luna",
+   "score": 0,
+   "desc": "",
+   "url": "https://www.producthunt.com/products/openai",
+   "source": "producthunt"
+  },
   {
    "keyword": "Paragraph Notes",
    "score": 0,
    "desc": "",
    "url": "https://www.producthunt.com/products/paragraph-notes",
-   "source": "producthunt"
-  },
-  {
-   "keyword": "Kaiku",
-   "score": 0,
-   "desc": "",
-   "url": "https://www.producthunt.com/products/kaiku",
    "source": "producthunt"
   }
  ],
@@ -287,52 +202,38 @@
  ],
  "repos": [
   {
-   "keyword": "paperclipai/paperclip",
-   "score": 2608,
-   "desc": "The open-source app everyone uses to manage agents at work",
-   "url": "https://github.com/paperclipai/paperclip",
-   "source": "github"
-  },
-  {
    "keyword": "vectorize-io/hindsight",
-   "score": 2147,
+   "score": 4520,
    "desc": "Hindsight: Agent Memory That Learns",
    "url": "https://github.com/vectorize-io/hindsight",
    "source": "github"
   },
   {
+   "keyword": "paperclipai/paperclip",
+   "score": 2401,
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "url": "https://github.com/paperclipai/paperclip",
+   "source": "github"
+  },
+  {
    "keyword": "dream-num/univer",
-   "score": 849,
+   "score": 895,
    "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
    "url": "https://github.com/dream-num/univer",
    "source": "github"
   },
   {
-   "keyword": "sponsors/zhaoxuya520",
-   "score": 361,
-   "desc": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-deman",
-   "url": "https://github.com/sponsors/zhaoxuya520",
+   "keyword": "mvschwarz/openrig",
+   "score": 114,
+   "desc": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "url": "https://github.com/mvschwarz/openrig",
    "source": "github"
   },
   {
-   "keyword": "NVIDIA/Model-Optimizer",
-   "score": 357,
-   "desc": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture se",
-   "url": "https://github.com/NVIDIA/Model-Optimizer",
-   "source": "github"
-  },
-  {
-   "keyword": "mobile-next/mobile-mcp",
-   "score": 168,
-   "desc": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
-   "url": "https://github.com/mobile-next/mobile-mcp",
-   "source": "github"
-  },
-  {
-   "keyword": "tensorflow/tensorflow",
-   "score": 46,
-   "desc": "An Open Source Machine Learning Framework for Everyone",
-   "url": "https://github.com/tensorflow/tensorflow",
+   "keyword": "willfaust/Madeira",
+   "score": 83,
+   "desc": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+   "url": "https://github.com/willfaust/Madeira",
    "source": "github"
   }
  ],
@@ -481,141 +382,141 @@
  "skills": [
   {
    "keyword": "⚡ obra/superpowers",
-   "score": 291977,
+   "score": 292219,
    "desc": "An agentic skills framework & software development methodology that works.",
    "url": "https://github.com/obra/superpowers",
    "source": "skills"
   },
   {
    "keyword": "⚡ mattpocock/skills",
-   "score": 270319,
+   "score": 270783,
    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
    "url": "https://github.com/mattpocock/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ affaan-m/ECC",
-   "score": 267994,
+   "score": 268485,
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencod",
    "url": "https://github.com/affaan-m/ECC",
    "source": "skills"
   },
   {
    "keyword": "⚡ anthropics/skills",
-   "score": 178570,
+   "score": 178690,
    "desc": "Public repository for Agent Skills",
    "url": "https://github.com/anthropics/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Shubhamsaboo/awesome-llm-apps",
-   "score": 139900,
+   "score": 140010,
    "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "source": "skills"
   },
   {
    "keyword": "⚡ JuliusBrussee/caveman",
-   "score": 107971,
+   "score": 108088,
    "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "skills"
   },
   {
    "keyword": "⚡ addyosmani/agent-skills",
-   "score": 99306,
+   "score": 99533,
    "desc": "Production-grade engineering skills for AI coding agents.",
    "url": "https://github.com/addyosmani/agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Leonxlnx/taste-skill",
-   "score": 90396,
+   "score": 90678,
    "desc": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
    "url": "https://github.com/Leonxlnx/taste-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ bytedance/deer-flow",
-   "score": 83010,
+   "score": 83075,
    "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and ",
    "url": "https://github.com/bytedance/deer-flow",
    "source": "skills"
   },
   {
    "keyword": "⚡ tt-a1i/archify",
-   "score": 72334,
+   "score": 72916,
    "desc": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp ex",
    "url": "https://github.com/tt-a1i/archify",
    "source": "skills"
   },
   {
    "keyword": "⚡ mvanhorn/last30days-skill",
-   "score": 62954,
+   "score": 63047,
    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
    "url": "https://github.com/mvanhorn/last30days-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ calesthio/OpenMontage",
-   "score": 61435,
+   "score": 61589,
    "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn",
    "url": "https://github.com/calesthio/OpenMontage",
    "source": "skills"
   },
   {
    "keyword": "⚡ hesreallyhim/awesome-claude-code",
-   "score": 54655,
+   "score": 54715,
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
    "source": "skills"
   },
   {
    "keyword": "⚡ blader/humanizer",
-   "score": 52190,
+   "score": 52404,
    "desc": "Agent skill that removes signs of AI-generated writing from text",
    "url": "https://github.com/blader/humanizer",
    "source": "skills"
   },
   {
    "keyword": "⚡ coreyhaines31/marketingskills",
-   "score": 51617,
+   "score": 51714,
    "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
    "url": "https://github.com/coreyhaines31/marketingskills",
    "source": "skills"
   },
   {
    "keyword": "⚡ ayghri/i-have-adhd",
-   "score": 51410,
+   "score": 51643,
    "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "url": "https://github.com/ayghri/i-have-adhd",
    "source": "skills"
   },
   {
    "keyword": "⚡ kepano/obsidian-skills",
-   "score": 48917,
+   "score": 48955,
    "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
    "url": "https://github.com/kepano/obsidian-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ jeecgboot/JeecgBoot",
-   "score": 47973,
+   "score": 47992,
    "desc": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生",
    "url": "https://github.com/jeecgboot/JeecgBoot",
    "source": "skills"
   },
   {
    "keyword": "⚡ zhayujie/CowAgent",
-   "score": 47128,
+   "score": 47147,
    "desc": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, ",
    "url": "https://github.com/zhayujie/CowAgent",
    "source": "skills"
   },
   {
    "keyword": "⚡ sickn33/agentic-awesome-skills",
-   "score": 46958,
-   "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,44",
+   "score": 47003,
+   "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,40",
    "url": "https://github.com/sickn33/agentic-awesome-skills",
    "source": "skills"
   }
@@ -623,15 +524,6 @@
  "keywords": [
   {
    "word": "Qwen3.8-27B",
-   "count": 1,
-   "sources": [
-    "HF"
-   ],
-   "cross": false,
-   "score": 20
-  },
-  {
-   "word": "LTX-2.5",
    "count": 1,
    "sources": [
     "HF"
@@ -649,31 +541,13 @@
    "score": 20
   },
   {
-   "word": "Agents Can Easily Tamper With Their Own Traces",
+   "word": "Qwen-Image-2.1",
    "count": 1,
    "sources": [
-    "arXiv"
+    "HF"
    ],
    "cross": false,
-   "score": 0
-  },
-  {
-   "word": "LLM",
-   "count": 1,
-   "sources": [
-    "arXiv"
-   ],
-   "cross": false,
-   "score": 0
-  },
-  {
-   "word": "Counterfactual Model Predictive Control",
-   "count": 1,
-   "sources": [
-    "arXiv"
-   ],
-   "cross": false,
-   "score": 0
+   "score": 20
   },
   {
    "word": "Airfoil",
@@ -703,7 +577,7 @@
    "score": 0
   },
   {
-   "word": "paperclip",
+   "word": "hindsight",
    "count": 1,
    "sources": [
     "GitHub"
@@ -712,7 +586,7 @@
    "score": 0
   },
   {
-   "word": "hindsight",
+   "word": "paperclip",
    "count": 1,
    "sources": [
     "GitHub"
@@ -730,7 +604,7 @@
    "score": 0
   },
   {
-   "word": "Paragraph Notes",
+   "word": "GPT-6 Sol & Luna",
    "count": 1,
    "sources": [
     "PH"
@@ -739,7 +613,7 @@
    "score": 0
   },
   {
-   "word": "Kaiku",
+   "word": "Paragraph Notes",
    "count": 1,
    "sources": [
     "PH"
