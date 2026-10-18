@@ -1,114 +1,115 @@
 {
- "date": "2026-10-17",
- "generated_at": "2026-10-17T03:09:02.244411+00:00",
+ "date": "2026-10-18",
+ "generated_at": "2026-10-18T03:11:24.176425+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
-   "score": 17858,
-   "desc": "7,516,626 downloads · 17858 likes",
+   "score": 17916,
+   "desc": "7,795,543 downloads · 17916 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
    "source": "huggingface"
   },
   {
    "keyword": "Lightricks/LTX-2.5",
-   "score": 8099,
-   "desc": "1,920,611 downloads · 8099 likes",
+   "score": 8238,
+   "desc": "1,993,003 downloads · 8238 likes",
    "url": "https://huggingface.co/Lightricks/LTX-2.5",
    "source": "huggingface"
   },
   {
    "keyword": "baidu/Unlimited-OCR",
-   "score": 4751,
-   "desc": "1,262,307 downloads · 4751 likes",
+   "score": 4766,
+   "desc": "1,476,672 downloads · 4766 likes",
    "url": "https://huggingface.co/baidu/Unlimited-OCR",
    "source": "huggingface"
   },
   {
    "keyword": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-   "score": 4442,
-   "desc": "2,477,554 downloads · 4442 likes",
+   "score": 4500,
+   "desc": "2,571,722 downloads · 4500 likes",
    "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "source": "huggingface"
   },
   {
    "keyword": "google/embeddinggemma-2",
-   "score": 2516,
-   "desc": "151,258 downloads · 2516 likes",
+   "score": 2604,
+   "desc": "158,490 downloads · 2604 likes",
    "url": "https://huggingface.co/google/embeddinggemma-2",
    "source": "huggingface"
   },
   {
    "keyword": "jialinyyzz/humanizer",
-   "score": 1834,
-   "desc": "85,612 downloads · 1834 likes",
+   "score": 1901,
+   "desc": "95,870 downloads · 1901 likes",
    "url": "https://huggingface.co/jialinyyzz/humanizer",
    "source": "huggingface"
   },
   {
+   "keyword": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "score": 1004,
+   "desc": "0 downloads · 1004 likes",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "huggingface"
+  },
+  {
    "keyword": "Qwen/Qwen-Image-2.1-Turbo",
-   "score": 946,
-   "desc": "17,421 downloads · 946 likes",
+   "score": 966,
+   "desc": "20,703 downloads · 966 likes",
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
    "source": "huggingface"
   },
   {
    "keyword": "openbmb/MiniCPM-V-4.7-35B-A3B",
-   "score": 850,
-   "desc": "17,553 downloads · 850 likes",
+   "score": 908,
+   "desc": "36,252 downloads · 908 likes",
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
    "source": "huggingface"
   },
   {
-   "keyword": "fishaudio/drama-3",
-   "score": 560,
-   "desc": "6,158 downloads · 560 likes",
-   "url": "https://huggingface.co/fishaudio/drama-3",
-   "source": "huggingface"
-  },
-  {
-   "keyword": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "score": 517,
-   "desc": "327,786 downloads · 517 likes",
-   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "source": "huggingface"
-  },
-  {
-   "keyword": "ConwayResearch/Underdog-Saluki-27B-1.0",
-   "score": 513,
-   "desc": "370,955 downloads · 513 likes",
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-   "source": "huggingface"
-  },
-  {
    "keyword": "black-forest-labs/flux-3-image-klein-comfy",
-   "score": 460,
-   "desc": "73,767 downloads · 460 likes",
+   "score": 664,
+   "desc": "224,108 downloads · 664 likes",
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "source": "huggingface"
   },
   {
+   "keyword": "fishaudio/drama-3",
+   "score": 624,
+   "desc": "8,193 downloads · 624 likes",
+   "url": "https://huggingface.co/fishaudio/drama-3",
+   "source": "huggingface"
+  },
+  {
    "keyword": "meta-models/Muse-Spark-Open-816B-A42B",
-   "score": 447,
-   "desc": "815 downloads · 447 likes",
+   "score": 508,
+   "desc": "1,600 downloads · 508 likes",
    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
    "source": "huggingface"
   },
   {
-   "keyword": "LiquidAI/LFM2.5-24B-A2B",
-   "score": 434,
-   "desc": "9,356 downloads · 434 likes",
-   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+   "keyword": "black-forest-labs/flux-3-image-klein",
+   "score": 458,
+   "desc": "46,123 downloads · 458 likes",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
    "source": "huggingface"
   },
   {
-   "keyword": "black-forest-labs/flux-3-image-klein",
-   "score": 405,
-   "desc": "22,790 downloads · 405 likes",
-   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+   "keyword": "LiquidAI/LFM2.5-24B-A2B",
+   "score": 448,
+   "desc": "11,926 downloads · 448 likes",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
    "source": "huggingface"
   }
  ],
- "datasets": [],
+ "datasets": [
+  {
+   "keyword": "📊 XiaomiMiMo/MiMo-V2.6-RL-oss",
+   "score": 970,
+   "desc": "Trending Dataset",
+   "url": "https://huggingface.co/datasets/XiaomiMiMo/MiMo-V2.6-RL-oss",
+   "source": "huggingface"
+  }
+ ],
  "papers": [
   {
    "keyword": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
@@ -195,20 +196,112 @@
    "source": "arxiv"
   }
  ],
- "robotics": [],
+ "robotics": [
+  {
+   "keyword": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+   "score": 0,
+   "desc": "Personalization is essential for general-purpose robots to transition into household environments an",
+   "url": "http://arxiv.org/abs/2610.22372v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Value as Memory: Online Value-Guided Post-training for General Robot Policies",
+   "score": 0,
+   "desc": "Real-world post-training of generalist robot policies faces two challenges: partial observability ma",
+   "url": "http://arxiv.org/abs/2610.22368v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+   "score": 0,
+   "desc": "Predicting how the world responds to an action requires more than what can be seen: robots must acco",
+   "url": "http://arxiv.org/abs/2610.22364v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
+   "score": 0,
+   "desc": "We introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that le",
+   "url": "http://arxiv.org/abs/2610.22363v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "CoDA: Co-Evolution of Data Engines and Action Policies",
+   "score": 0,
+   "desc": "Generative simulation can automate robot environment construction, but physically valid environments",
+   "url": "http://arxiv.org/abs/2610.22362v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+   "score": 0,
+   "desc": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictiv",
+   "url": "http://arxiv.org/abs/2610.22343v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation",
+   "score": 0,
+   "desc": "Generalist robot policies benefit from large-scale visual pretraining but often struggle with contac",
+   "url": "http://arxiv.org/abs/2610.22342v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Dexterity from Supervised Play",
+   "score": 0,
+   "desc": "How can robots autonomously collect the contact-rich experience needed to learn dexterous manipulati",
+   "url": "http://arxiv.org/abs/2610.22340v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Sim-to-Real Reinforcement Learning for Path-Safe Target Reaching in Robotic Harvesting of Hydroponic Lettuce",
+   "score": 0,
+   "desc": "Robotic harvesting requires precise manipulation to ensure accurate positioning of the end-effector,",
+   "url": "http://arxiv.org/abs/2610.22337v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Illumination-Aware Active Perception for Spacecraft Inspection",
+   "score": 0,
+   "desc": "Harsh and rapidly varying orbital illumination introduces failure modes during spacecraft inspection",
+   "url": "http://arxiv.org/abs/2610.22335v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Mem4Act: Learning Effective Latent Memory for Long-Horizon Robotic Manipulation",
+   "score": 0,
+   "desc": "Long-horizon robotic manipulation fundamentally requires memory: agents must retain task-relevant in",
+   "url": "http://arxiv.org/abs/2610.22323v1",
+   "source": "robotics"
+  },
+  {
+   "keyword": "Asking Smarter Questions: Targeted Active Preference Learning for Underspecified Rewards",
+   "score": 0,
+   "desc": "Reward learning typically assumes the human's input covers everything that matters for the task. In ",
+   "url": "http://arxiv.org/abs/2610.22285v1",
+   "source": "robotics"
+  }
+ ],
  "products": [
   {
-   "keyword": "GBrain Tools",
+   "keyword": "GPU Terminal by Context.dev",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/gbrain",
+   "url": "https://www.producthunt.com/products/context-dev",
    "source": "producthunt"
   },
   {
-   "keyword": "Taim",
+   "keyword": "Craft Agents",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/taim-4",
+   "url": "https://www.producthunt.com/products/craft-agents",
+   "source": "producthunt"
+  },
+  {
+   "keyword": "Train with Pasta",
+   "score": 0,
+   "desc": "",
+   "url": "https://www.producthunt.com/products/train-with-pasta",
    "source": "producthunt"
   }
  ],
@@ -286,66 +379,73 @@
  ],
  "repos": [
   {
-   "keyword": "xerj-org/xerj",
-   "score": 1648,
-   "desc": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token",
-   "url": "https://github.com/xerj-org/xerj",
-   "source": "github"
-  },
-  {
    "keyword": "anthropics/claude-plugins-official",
-   "score": 1552,
+   "score": 1397,
    "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
    "url": "https://github.com/anthropics/claude-plugins-official",
    "source": "github"
   },
   {
-   "keyword": "K-Dense-AI/scientific-agent-skills",
-   "score": 1158,
-   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. ",
-   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-   "source": "github"
-  },
-  {
-   "keyword": "sponsors/affaan-m",
-   "score": 1057,
-   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
-   "url": "https://github.com/sponsors/affaan-m",
-   "source": "github"
-  },
-  {
-   "keyword": "sponsors/obra",
-   "score": 973,
-   "desc": "An agentic skills framework & software development methodology that works.",
-   "url": "https://github.com/sponsors/obra",
-   "source": "github"
-  },
-  {
    "keyword": "sponsors/MadsLorentzen",
-   "score": 898,
+   "score": 1365,
    "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor C",
    "url": "https://github.com/sponsors/MadsLorentzen",
    "source": "github"
   },
   {
+   "keyword": "xerj-org/xerj",
+   "score": 1160,
+   "desc": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token",
+   "url": "https://github.com/xerj-org/xerj",
+   "source": "github"
+  },
+  {
+   "keyword": "sponsors/affaan-m",
+   "score": 1145,
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development f",
+   "url": "https://github.com/sponsors/affaan-m",
+   "source": "github"
+  },
+  {
+   "keyword": "K-Dense-AI/scientific-agent-skills",
+   "score": 878,
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. ",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "source": "github"
+  },
+  {
+   "keyword": "stablyai/orca",
+   "score": 830,
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own su",
+   "url": "https://github.com/stablyai/orca",
+   "source": "github"
+  },
+  {
+   "keyword": "HKUDS/CLI-Anything",
+   "score": 574,
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "source": "github"
+  },
+  {
+   "keyword": "sponsors/anomalyco",
+   "score": 438,
+   "desc": "The open source coding agent.",
+   "url": "https://github.com/sponsors/anomalyco",
+   "source": "github"
+  },
+  {
    "keyword": "ruvnet/ruflo",
-   "score": 672,
+   "score": 420,
    "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build convers",
    "url": "https://github.com/ruvnet/ruflo",
    "source": "github"
   },
   {
-   "keyword": "sponsors/mksglu",
-   "score": 449,
-   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and en",
-   "url": "https://github.com/sponsors/mksglu",
-   "source": "github"
-  },
-  {
-   "keyword": "HKUDS/CLI-Anything",
-   "score": 281,
-   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-   "url": "https://github.com/HKUDS/CLI-Anything",
+   "keyword": "anthropics/claude-code",
+   "score": 179,
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster ",
+   "url": "https://github.com/anthropics/claude-code",
    "source": "github"
   }
  ],
@@ -494,140 +594,140 @@
  "skills": [
   {
    "keyword": "⚡ obra/superpowers",
-   "score": 300720,
+   "score": 301256,
    "desc": "An agentic skills framework & software development methodology that works.",
    "url": "https://github.com/obra/superpowers",
    "source": "skills"
   },
   {
    "keyword": "⚡ mattpocock/skills",
-   "score": 294178,
+   "score": 295198,
    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
    "url": "https://github.com/mattpocock/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ affaan-m/ECC",
-   "score": 281596,
+   "score": 282592,
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencod",
    "url": "https://github.com/affaan-m/ECC",
    "source": "skills"
   },
   {
    "keyword": "⚡ anthropics/skills",
-   "score": 181620,
+   "score": 181814,
    "desc": "Public repository for Agent Skills",
    "url": "https://github.com/anthropics/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Shubhamsaboo/awesome-llm-apps",
-   "score": 142037,
+   "score": 142146,
    "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "source": "skills"
   },
   {
    "keyword": "⚡ JuliusBrussee/caveman",
-   "score": 113078,
+   "score": 113318,
    "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "skills"
   },
   {
    "keyword": "⚡ addyosmani/agent-skills",
-   "score": 107433,
+   "score": 107880,
    "desc": "Production-grade engineering skills for AI coding agents.",
    "url": "https://github.com/addyosmani/agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Leonxlnx/taste-skill",
-   "score": 98066,
+   "score": 98480,
    "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
    "url": "https://github.com/Leonxlnx/taste-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ tt-a1i/archify",
-   "score": 84512,
+   "score": 84929,
    "desc": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "url": "https://github.com/tt-a1i/archify",
    "source": "skills"
   },
   {
    "keyword": "⚡ bytedance/deer-flow",
-   "score": 83967,
+   "score": 84035,
    "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and ",
    "url": "https://github.com/bytedance/deer-flow",
    "source": "skills"
   },
   {
    "keyword": "⚡ calesthio/OpenMontage",
-   "score": 68927,
+   "score": 69214,
    "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn",
    "url": "https://github.com/calesthio/OpenMontage",
    "source": "skills"
   },
   {
    "keyword": "⚡ mvanhorn/last30days-skill",
-   "score": 64514,
+   "score": 64599,
    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
    "url": "https://github.com/mvanhorn/last30days-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ blader/humanizer",
-   "score": 57604,
+   "score": 57864,
    "desc": "Agent skill that removes signs of AI-generated writing from text",
    "url": "https://github.com/blader/humanizer",
    "source": "skills"
   },
   {
    "keyword": "⚡ ayghri/i-have-adhd",
-   "score": 57450,
+   "score": 57573,
    "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "url": "https://github.com/ayghri/i-have-adhd",
    "source": "skills"
   },
   {
    "keyword": "⚡ hesreallyhim/awesome-claude-code",
-   "score": 55858,
+   "score": 55914,
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
    "source": "skills"
   },
   {
    "keyword": "⚡ coreyhaines31/marketingskills",
-   "score": 55127,
+   "score": 55262,
    "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
    "url": "https://github.com/coreyhaines31/marketingskills",
    "source": "skills"
   },
   {
    "keyword": "⚡ K-Dense-AI/scientific-agent-skills",
-   "score": 51581,
+   "score": 52316,
    "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated ski",
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ kepano/obsidian-skills",
-   "score": 49649,
+   "score": 49696,
    "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
    "url": "https://github.com/kepano/obsidian-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ jeecgboot/JeecgBoot",
-   "score": 48237,
+   "score": 48244,
    "desc": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生",
    "url": "https://github.com/jeecgboot/JeecgBoot",
    "source": "skills"
   },
   {
    "keyword": "⚡ sickn33/agentic-awesome-skills",
-   "score": 47736,
+   "score": 47780,
    "desc": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,60",
    "url": "https://github.com/sickn33/agentic-awesome-skills",
    "source": "skills"
@@ -716,15 +816,6 @@
    "score": 0
   },
   {
-   "word": "xerj",
-   "count": 1,
-   "sources": [
-    "GitHub"
-   ],
-   "cross": false,
-   "score": 0
-  },
-  {
    "word": "claude-plugins-official",
    "count": 1,
    "sources": [
@@ -734,7 +825,7 @@
    "score": 0
   },
   {
-   "word": "scientific-agent-skills",
+   "word": "MadsLorentzen",
    "count": 1,
    "sources": [
     "GitHub"
@@ -743,7 +834,16 @@
    "score": 0
   },
   {
-   "word": "GBrain Tools",
+   "word": "xerj",
+   "count": 1,
+   "sources": [
+    "GitHub"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
+   "word": "GPU Terminal by Context.dev",
    "count": 1,
    "sources": [
     "PH"
@@ -752,7 +852,16 @@
    "score": 0
   },
   {
-   "word": "Taim",
+   "word": "Craft Agents",
+   "count": 1,
+   "sources": [
+    "PH"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
+   "word": "Train with Pasta",
    "count": 1,
    "sources": [
     "PH"
