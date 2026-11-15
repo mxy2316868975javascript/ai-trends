@@ -1,110 +1,110 @@
 {
- "date": "2026-11-14",
- "generated_at": "2026-11-14T05:04:59.102281+00:00",
+ "date": "2026-11-15",
+ "generated_at": "2026-11-15T04:58:15.155669+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
-   "score": 19904,
-   "desc": "6,960,395 downloads · 19904 likes",
+   "score": 20026,
+   "desc": "6,757,964 downloads · 20026 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
    "source": "huggingface"
   },
   {
    "keyword": "Lightricks/LTX-2.5",
-   "score": 11807,
-   "desc": "2,778,909 downloads · 11807 likes",
+   "score": 11942,
+   "desc": "2,777,667 downloads · 11942 likes",
    "url": "https://huggingface.co/Lightricks/LTX-2.5",
    "source": "huggingface"
   },
   {
    "keyword": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-   "score": 6470,
-   "desc": "21,586 downloads · 6470 likes",
+   "score": 7388,
+   "desc": "24,470 downloads · 7388 likes",
    "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "source": "huggingface"
   },
   {
    "keyword": "unsloth/Qwen3.8-27B-GGUF",
-   "score": 5887,
-   "desc": "6,253,865 downloads · 5887 likes",
+   "score": 5953,
+   "desc": "6,422,783 downloads · 5953 likes",
    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "black-forest-labs/flux-3-image-klein-comfy",
-   "score": 3112,
-   "desc": "1,330,289 downloads · 3112 likes",
+   "score": 3188,
+   "desc": "1,292,519 downloads · 3188 likes",
    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
    "source": "huggingface"
   },
   {
    "keyword": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-   "score": 3067,
-   "desc": "1,639,400 downloads · 3067 likes",
+   "score": 3129,
+   "desc": "1,657,783 downloads · 3129 likes",
    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "speridlabs/idol",
-   "score": 2306,
-   "desc": "31,367 downloads · 2306 likes",
+   "score": 2343,
+   "desc": "32,619 downloads · 2343 likes",
    "url": "https://huggingface.co/speridlabs/idol",
    "source": "huggingface"
   },
   {
    "keyword": "moonshotai/Kimi-K3.1-Pro",
-   "score": 2043,
-   "desc": "40,953 downloads · 2043 likes",
+   "score": 2081,
+   "desc": "43,687 downloads · 2081 likes",
    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
    "source": "huggingface"
   },
   {
-   "keyword": "ccore/Qwen3.5-4B-3D-Coder",
-   "score": 1100,
-   "desc": "392,582 downloads · 1100 likes",
-   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
-   "source": "huggingface"
-  },
-  {
    "keyword": "MiniMaxAI/MiniMax-H3-Image",
-   "score": 1036,
-   "desc": "437,039 downloads · 1036 likes",
+   "score": 1126,
+   "desc": "517,948 downloads · 1126 likes",
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
    "source": "huggingface"
   },
   {
    "keyword": "NousResearch/Arete-27B",
-   "score": 561,
-   "desc": "5,545 downloads · 561 likes",
+   "score": 598,
+   "desc": "6,191 downloads · 598 likes",
    "url": "https://huggingface.co/NousResearch/Arete-27B",
    "source": "huggingface"
   },
   {
    "keyword": "Comfy-Org/MiniMax-H3-Image",
-   "score": 355,
-   "desc": "1,257,301 downloads · 355 likes",
+   "score": 389,
+   "desc": "1,615,613 downloads · 389 likes",
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+   "source": "huggingface"
+  },
+  {
+   "keyword": "Zyphra/ZONOS3-Mini",
+   "score": 352,
+   "desc": "19,743 downloads · 352 likes",
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
    "source": "huggingface"
   }
  ],
  "datasets": [
   {
    "keyword": "📊 nvidia/simready-assets",
-   "score": 1571,
+   "score": 1581,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/nvidia/simready-assets",
    "source": "huggingface"
   },
   {
    "keyword": "📊 Vyber07/cyber-security",
-   "score": 1030,
+   "score": 1065,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/Vyber07/cyber-security",
    "source": "huggingface"
   },
   {
    "keyword": "📊 Angais/pixel-art-atlas-1.4m",
-   "score": 465,
+   "score": 485,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/Angais/pixel-art-atlas-1.4m",
    "source": "huggingface"
@@ -199,38 +199,17 @@
  "robotics": [],
  "products": [
   {
-   "keyword": "Templify AI",
+   "keyword": "Gemini Robotics 2.5",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/templify",
+   "url": "https://www.producthunt.com/products/gemini-robotics-2-5",
    "source": "producthunt"
   },
   {
-   "keyword": "Aven App Agent",
+   "keyword": "Businesses in ChatGPT",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/aven-app-agent",
-   "source": "producthunt"
-  },
-  {
-   "keyword": "Trainn MCP",
-   "score": 0,
-   "desc": "",
-   "url": "https://www.producthunt.com/products/trainn",
-   "source": "producthunt"
-  },
-  {
-   "keyword": "Gemini 4 Hydrogen",
-   "score": 0,
-   "desc": "",
-   "url": "https://www.producthunt.com/products/gemini-6",
-   "source": "producthunt"
-  },
-  {
-   "keyword": "Kairos",
-   "score": 0,
-   "desc": "",
-   "url": "https://www.producthunt.com/products/kairos-18",
+   "url": "https://www.producthunt.com/products/openai",
    "source": "producthunt"
   }
  ],
@@ -309,58 +288,65 @@
  "repos": [
   {
    "keyword": "GoogleChrome/modern-web-guidance-src",
-   "score": 1925,
+   "score": 1231,
    "desc": "Keep your coding agent up to date with the latest web best practices",
    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
    "source": "github"
   },
   {
-   "keyword": "openai/codex-security",
-   "score": 751,
-   "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https:",
-   "url": "https://github.com/openai/codex-security",
-   "source": "github"
-  },
-  {
-   "keyword": "sponsors/ZhuLinsen",
-   "score": 256,
-   "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source marke",
-   "url": "https://github.com/sponsors/ZhuLinsen",
-   "source": "github"
-  },
-  {
-   "keyword": "tailscale/tailcat",
-   "score": 256,
-   "desc": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-   "url": "https://github.com/tailscale/tailcat",
-   "source": "github"
-  },
-  {
    "keyword": "alibaba/open-code-review",
-   "score": 215,
+   "score": 893,
    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines",
    "url": "https://github.com/alibaba/open-code-review",
    "source": "github"
   },
   {
-   "keyword": "backnotprop/plannotator",
-   "score": 108,
-   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, an",
-   "url": "https://github.com/backnotprop/plannotator",
+   "keyword": "ChromeDevTools/chrome-devtools-mcp",
+   "score": 664,
+   "desc": "Chrome DevTools for coding agents",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
    "source": "github"
   },
   {
    "keyword": "tradermonty/claude-trading-skills",
-   "score": 69,
+   "score": 553,
    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners",
    "url": "https://github.com/tradermonty/claude-trading-skills",
    "source": "github"
   },
   {
-   "keyword": "ChromeDevTools/chrome-devtools-mcp",
-   "score": 67,
-   "desc": "Chrome DevTools for coding agents",
-   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "keyword": "dream-num/univer",
+   "score": 495,
+   "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into you",
+   "url": "https://github.com/dream-num/univer",
+   "source": "github"
+  },
+  {
+   "keyword": "backnotprop/plannotator",
+   "score": 408,
+   "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, an",
+   "url": "https://github.com/backnotprop/plannotator",
+   "source": "github"
+  },
+  {
+   "keyword": "martin-olivier/airgorah",
+   "score": 270,
+   "desc": "A WiFi security auditing software",
+   "url": "https://github.com/martin-olivier/airgorah",
+   "source": "github"
+  },
+  {
+   "keyword": "sponsors/JuliusBrussee",
+   "score": 227,
+   "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking l",
+   "url": "https://github.com/sponsors/JuliusBrussee",
+   "source": "github"
+  },
+  {
+   "keyword": "QwenLM/qwen-code",
+   "score": 64,
+   "desc": "An open-source AI coding agent that lives in your terminal.",
+   "url": "https://github.com/QwenLM/qwen-code",
    "source": "github"
   }
  ],
@@ -509,140 +495,140 @@
  "skills": [
   {
    "keyword": "⚡ mattpocock/skills",
-   "score": 323911,
+   "score": 324575,
    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
    "url": "https://github.com/mattpocock/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ obra/superpowers",
-   "score": 317302,
+   "score": 317704,
    "desc": "An agentic skills framework & software development methodology that works.",
    "url": "https://github.com/obra/superpowers",
    "source": "skills"
   },
   {
    "keyword": "⚡ affaan-m/ECC",
-   "score": 302534,
+   "score": 303220,
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencod",
    "url": "https://github.com/affaan-m/ECC",
    "source": "skills"
   },
   {
    "keyword": "⚡ anthropics/skills",
-   "score": 194199,
+   "score": 194695,
    "desc": "Public repository for Agent Skills",
    "url": "https://github.com/anthropics/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Shubhamsaboo/awesome-llm-apps",
-   "score": 144595,
+   "score": 144655,
    "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "source": "skills"
   },
   {
    "keyword": "⚡ JuliusBrussee/caveman",
-   "score": 119726,
+   "score": 120144,
    "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "skills"
   },
   {
    "keyword": "⚡ addyosmani/agent-skills",
-   "score": 117212,
+   "score": 117633,
    "desc": "Production-grade engineering skills for AI coding agents.",
    "url": "https://github.com/addyosmani/agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Leonxlnx/taste-skill",
-   "score": 115141,
+   "score": 115735,
    "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
    "url": "https://github.com/Leonxlnx/taste-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ tt-a1i/archify",
-   "score": 96255,
+   "score": 96496,
    "desc": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "url": "https://github.com/tt-a1i/archify",
    "source": "skills"
   },
   {
    "keyword": "⚡ bytedance/deer-flow",
-   "score": 85321,
+   "score": 85350,
    "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and ",
    "url": "https://github.com/bytedance/deer-flow",
    "source": "skills"
   },
   {
    "keyword": "⚡ OpenMontageInc/OpenMontage",
-   "score": 80319,
+   "score": 80531,
    "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn",
    "url": "https://github.com/OpenMontageInc/OpenMontage",
    "source": "skills"
   },
   {
    "keyword": "⚡ cloudflare/security-audit-skill",
-   "score": 72030,
+   "score": 72735,
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "url": "https://github.com/cloudflare/security-audit-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ blader/humanizer",
-   "score": 68885,
+   "score": 69184,
    "desc": "Agent skill that removes signs of AI-generated writing from text",
    "url": "https://github.com/blader/humanizer",
    "source": "skills"
   },
   {
    "keyword": "⚡ mvanhorn/last30days-skill",
-   "score": 67579,
+   "score": 67686,
    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
    "url": "https://github.com/mvanhorn/last30days-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ ayghri/i-have-adhd",
-   "score": 61129,
+   "score": 61221,
    "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "url": "https://github.com/ayghri/i-have-adhd",
    "source": "skills"
   },
   {
    "keyword": "⚡ coreyhaines31/marketingskills",
-   "score": 60201,
+   "score": 60375,
    "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
    "url": "https://github.com/coreyhaines31/marketingskills",
    "source": "skills"
   },
   {
    "keyword": "⚡ hesreallyhim/awesome-claude-code",
-   "score": 57955,
+   "score": 58022,
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
    "source": "skills"
   },
   {
    "keyword": "⚡ K-Dense-AI/scientific-agent-skills",
-   "score": 57086,
+   "score": 57232,
    "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated ski",
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ obsidianmd/obsidian-skills",
-   "score": 52333,
+   "score": 52642,
    "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
    "url": "https://github.com/obsidianmd/obsidian-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ sickn33/agentic-awesome-skills",
-   "score": 49672,
+   "score": 49719,
    "desc": "2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan p",
    "url": "https://github.com/sickn33/agentic-awesome-skills",
    "source": "skills"
@@ -740,7 +726,7 @@
    "score": 0
   },
   {
-   "word": "codex-security",
+   "word": "open-code-review",
    "count": 1,
    "sources": [
     "GitHub"
@@ -749,7 +735,7 @@
    "score": 0
   },
   {
-   "word": "ZhuLinsen",
+   "word": "chrome-devtools-mcp",
    "count": 1,
    "sources": [
     "GitHub"
@@ -758,7 +744,7 @@
    "score": 0
   },
   {
-   "word": "Templify AI",
+   "word": "Gemini Robotics 2.5",
    "count": 1,
    "sources": [
     "PH"
@@ -767,16 +753,7 @@
    "score": 0
   },
   {
-   "word": "Aven App Agent",
-   "count": 1,
-   "sources": [
-    "PH"
-   ],
-   "cross": false,
-   "score": 0
-  },
-  {
-   "word": "Trainn MCP",
+   "word": "Businesses in ChatGPT",
    "count": 1,
    "sources": [
     "PH"
