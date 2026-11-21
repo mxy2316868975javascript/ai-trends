@@ -1,215 +1,208 @@
 {
- "date": "2026-11-20",
- "generated_at": "2026-11-20T05:51:45.615302+00:00",
+ "date": "2026-11-21",
+ "generated_at": "2026-11-21T05:46:09.973973+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
-   "score": 20698,
-   "desc": "6,647,301 downloads · 20698 likes",
+   "score": 20821,
+   "desc": "6,454,419 downloads · 20821 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
    "source": "huggingface"
   },
   {
    "keyword": "Lightricks/LTX-2.5",
-   "score": 12759,
-   "desc": "2,934,937 downloads · 12759 likes",
+   "score": 12922,
+   "desc": "2,964,523 downloads · 12922 likes",
    "url": "https://huggingface.co/Lightricks/LTX-2.5",
    "source": "huggingface"
   },
   {
    "keyword": "higurashi-ai/Haru-4B",
-   "score": 3665,
-   "desc": "6,266 downloads · 3665 likes",
+   "score": 5702,
+   "desc": "7,323 downloads · 5702 likes",
    "url": "https://huggingface.co/higurashi-ai/Haru-4B",
    "source": "huggingface"
   },
   {
    "keyword": "MiniMaxAI/MiniMax-H3-Image",
-   "score": 1655,
-   "desc": "821,710 downloads · 1655 likes",
+   "score": 1708,
+   "desc": "876,986 downloads · 1708 likes",
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
    "source": "huggingface"
   },
   {
    "keyword": "harness-hub/Qwen3.8-27B-pi-adapted",
-   "score": 752,
-   "desc": "1,320 downloads · 752 likes",
+   "score": 871,
+   "desc": "1,874 downloads · 871 likes",
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
    "source": "huggingface"
   },
   {
+   "keyword": "thinkingmachines/Inkling-2-Mini",
+   "score": 866,
+   "desc": "136 downloads · 866 likes",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "source": "huggingface"
+  },
+  {
    "keyword": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-   "score": 697,
-   "desc": "268,540 downloads · 697 likes",
+   "score": 770,
+   "desc": "309,394 downloads · 770 likes",
    "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
    "source": "huggingface"
   },
   {
-   "keyword": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-   "score": 625,
-   "desc": "172,088 downloads · 625 likes",
-   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
-   "source": "huggingface"
-  },
-  {
-   "keyword": "thinkingmachines/Inkling-2-Small",
-   "score": 587,
-   "desc": "37,318 downloads · 587 likes",
-   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
-   "source": "huggingface"
-  },
-  {
-   "keyword": "sensenova/SenseNova-Loop-9B",
-   "score": 391,
-   "desc": "1,447 downloads · 391 likes",
-   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
-   "source": "huggingface"
-  },
-  {
    "keyword": "tencent/Hy4-flash",
-   "score": 366,
-   "desc": "2,053 downloads · 366 likes",
+   "score": 554,
+   "desc": "3,949 downloads · 554 likes",
    "url": "https://huggingface.co/tencent/Hy4-flash",
    "source": "huggingface"
   },
   {
+   "keyword": "inworld/voice-isolator",
+   "score": 510,
+   "desc": "0 downloads · 510 likes",
+   "url": "https://huggingface.co/inworld/voice-isolator",
+   "source": "huggingface"
+  },
+  {
    "keyword": "apple/FastFrames-L",
-   "score": 350,
-   "desc": "0 downloads · 350 likes",
+   "score": 492,
+   "desc": "0 downloads · 492 likes",
    "url": "https://huggingface.co/apple/FastFrames-L",
    "source": "huggingface"
   },
   {
-   "keyword": "meituan-longcat/LongCat-Video-Avatar-1.6",
-   "score": 340,
-   "desc": "1,923 downloads · 340 likes",
-   "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+   "keyword": "sensenova/SenseNova-Loop-9B",
+   "score": 453,
+   "desc": "1,631 downloads · 453 likes",
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+   "source": "huggingface"
+  },
+  {
+   "keyword": "Sentinel7/h3",
+   "score": 416,
+   "desc": "0 downloads · 416 likes",
+   "url": "https://huggingface.co/Sentinel7/h3",
    "source": "huggingface"
   }
  ],
  "datasets": [
   {
    "keyword": "📊 nvidia/simready-assets",
-   "score": 1672,
+   "score": 1693,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/nvidia/simready-assets",
    "source": "huggingface"
   },
   {
    "keyword": "📊 Vyber07/cyber-security",
-   "score": 1281,
+   "score": 1329,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/Vyber07/cyber-security",
    "source": "huggingface"
   },
   {
    "keyword": "📊 Angais/pixel-art-atlas-1.4m",
-   "score": 609,
+   "score": 652,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/Angais/pixel-art-atlas-1.4m",
    "source": "huggingface"
   }
  ],
- "papers": [],
- "robotics": [
+ "papers": [
+  {
+   "keyword": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+   "score": 0,
+   "desc": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery ",
+   "url": "http://arxiv.org/abs/2611.26624v1",
+   "source": "arxiv"
+  },
   {
    "keyword": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
    "score": 0,
    "desc": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action ",
    "url": "http://arxiv.org/abs/2611.26617v1",
-   "source": "robotics"
+   "source": "arxiv"
   },
   {
-   "keyword": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+   "keyword": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
    "score": 0,
-   "desc": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in con",
-   "url": "http://arxiv.org/abs/2611.26613v1",
-   "source": "robotics"
+   "desc": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabi",
+   "url": "http://arxiv.org/abs/2611.26601v1",
+   "source": "arxiv"
   },
   {
-   "keyword": "A Tutorial on Complementarity-Based Contact Models for Robotics",
+   "keyword": "Active Feature Acquisition by Distilling an Oracle Teacher",
    "score": 0,
-   "desc": "Simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and co",
-   "url": "http://arxiv.org/abs/2611.26600v1",
-   "source": "robotics"
+   "desc": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a ",
+   "url": "http://arxiv.org/abs/2611.26598v1",
+   "source": "arxiv"
   },
   {
    "keyword": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
    "score": 0,
    "desc": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet ",
    "url": "http://arxiv.org/abs/2611.26596v1",
-   "source": "robotics"
+   "source": "arxiv"
   },
   {
-   "keyword": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",
+   "keyword": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
    "score": 0,
-   "desc": "Vision-Language-Action (VLA) models have advanced rapidly in language-conditioned robotic manipulati",
-   "url": "http://arxiv.org/abs/2611.26565v1",
-   "source": "robotics"
+   "desc": "Self-consistency certification treats repeated sampling from a language model as sequential evidence",
+   "url": "http://arxiv.org/abs/2611.26592v1",
+   "source": "arxiv"
   },
   {
-   "keyword": "ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents",
+   "keyword": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
    "score": 0,
-   "desc": "Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed exe",
-   "url": "http://arxiv.org/abs/2611.26519v1",
-   "source": "robotics"
+   "desc": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not rev",
+   "url": "http://arxiv.org/abs/2611.26590v1",
+   "source": "arxiv"
   },
   {
-   "keyword": "JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own",
+   "keyword": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
    "score": 0,
-   "desc": "Power electronics is central to the energy transition, but developing new hardware still relies on h",
-   "url": "http://arxiv.org/abs/2611.26503v1",
-   "source": "robotics"
+   "desc": "A passing UVM regression shows the design agrees with the reference model on what the scoreboard che",
+   "url": "http://arxiv.org/abs/2611.26588v1",
+   "source": "arxiv"
   },
   {
-   "keyword": "An Open-Source ROS 2 Framework for Shared Control in Surgical Teleoperation: Integrating the Haply Inverse3 with the da Vinci Research Kit",
+   "keyword": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
    "score": 0,
-   "desc": "Surgical teleoperation deprives surgeons of touch, forcing visual inference of tissue forces; the co",
-   "url": "http://arxiv.org/abs/2611.26485v1",
-   "source": "robotics"
+   "desc": "Graphic designs are ordered compositions of RGBA layers whose separation enables selection, movement",
+   "url": "http://arxiv.org/abs/2611.26586v1",
+   "source": "arxiv"
   },
   {
-   "keyword": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+   "keyword": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
    "score": 0,
-   "desc": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability",
-   "url": "http://arxiv.org/abs/2611.26444v1",
-   "source": "robotics"
+   "desc": "Generative engines synthesize retrieved web pages into answers, recommendations, and rankings. Gener",
+   "url": "http://arxiv.org/abs/2611.26564v1",
+   "source": "arxiv"
   },
   {
-   "keyword": "HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation",
+   "keyword": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
    "score": 0,
-   "desc": "First-person manipulation datasets treat the observation-action pair as the atomic unit and compress",
-   "url": "http://arxiv.org/abs/2611.26434v1",
-   "source": "robotics"
+   "desc": "Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly f",
+   "url": "http://arxiv.org/abs/2611.26562v1",
+   "source": "arxiv"
   },
   {
-   "keyword": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+   "keyword": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
    "score": 0,
-   "desc": "A central goal of humanoid robotics is for robots to perform the everyday work people do in homes an",
-   "url": "http://arxiv.org/abs/2611.26420v1",
-   "source": "robotics"
-  },
-  {
-   "keyword": "TacInno: Teaching Vision-Language-Action Models the Contact Dynamics Beyond Vision and Action",
-   "score": 0,
-   "desc": "Vision-Language-Action (VLA) models have recently been equipped with tactile sensing to perceive vis",
-   "url": "http://arxiv.org/abs/2611.26405v1",
-   "source": "robotics"
+   "desc": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their ",
+   "url": "http://arxiv.org/abs/2611.26557v1",
+   "source": "arxiv"
   }
  ],
+ "robotics": [],
  "products": [
   {
-   "keyword": "Stripo Email Widgets",
+   "keyword": "Mailpipe",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/stripo-email",
-   "source": "producthunt"
-  },
-  {
-   "keyword": "Gemini 4 Neon",
-   "score": 0,
-   "desc": "",
-   "url": "https://www.producthunt.com/products/gemini-6",
+   "url": "https://www.producthunt.com/products/mailpipe-2",
    "source": "producthunt"
   }
  ],
@@ -287,66 +280,73 @@
  ],
  "repos": [
   {
-   "keyword": "sponsors/obra",
-   "score": 2028,
-   "desc": "An agentic skills framework & software development methodology that works.",
-   "url": "https://github.com/sponsors/obra",
-   "source": "github"
-  },
-  {
    "keyword": "sponsors/elementalsouls",
-   "score": 1349,
+   "score": 1622,
    "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-repo",
    "url": "https://github.com/sponsors/elementalsouls",
    "source": "github"
   },
   {
-   "keyword": "mvanhorn/last30days-skill",
-   "score": 954,
-   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gro",
-   "url": "https://github.com/mvanhorn/last30days-skill",
+   "keyword": "firecrawl/firecrawl",
+   "score": 1241,
+   "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "source": "github"
+  },
+  {
+   "keyword": "zhouxiaoka/autoclip",
+   "score": 979,
+   "desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source A",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "source": "github"
+  },
+  {
+   "keyword": "sponsors/obra",
+   "score": 890,
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "url": "https://github.com/sponsors/obra",
+   "source": "github"
+  },
+  {
+   "keyword": "jingyaogong/minimind",
+   "score": 847,
+   "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+   "url": "https://github.com/jingyaogong/minimind",
    "source": "github"
   },
   {
    "keyword": "HKUDS/CLI-Anything",
-   "score": 898,
+   "score": 773,
    "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
    "url": "https://github.com/HKUDS/CLI-Anything",
    "source": "github"
   },
   {
-   "keyword": "firecrawl/firecrawl",
-   "score": 825,
-   "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
-   "url": "https://github.com/firecrawl/firecrawl",
+   "keyword": "mvanhorn/last30days-skill",
+   "score": 681,
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gro",
+   "url": "https://github.com/mvanhorn/last30days-skill",
    "source": "github"
   },
   {
-   "keyword": "google-labs-code/stitch-skills",
-   "score": 302,
-   "desc": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard",
-   "url": "https://github.com/google-labs-code/stitch-skills",
+   "keyword": "sponsors/toeverything",
+   "score": 676,
+   "desc": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, s",
+   "url": "https://github.com/sponsors/toeverything",
    "source": "github"
   },
   {
    "keyword": "sponsors/cathrynlavery",
-   "score": 271,
+   "score": 636,
    "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types.",
    "url": "https://github.com/sponsors/cathrynlavery",
    "source": "github"
   },
   {
-   "keyword": "openvinotoolkit/openvino",
-   "score": 246,
-   "desc": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-   "url": "https://github.com/openvinotoolkit/openvino",
-   "source": "github"
-  },
-  {
-   "keyword": "jingyaogong/minimind",
-   "score": 238,
-   "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-   "url": "https://github.com/jingyaogong/minimind",
+   "keyword": "Tracer-Cloud/opensre",
+   "score": 466,
+   "desc": "The open-source agent for CI/CD reliability.",
+   "url": "https://github.com/Tracer-Cloud/opensre",
    "source": "github"
   }
  ],
@@ -495,140 +495,140 @@
  "skills": [
   {
    "keyword": "⚡ mattpocock/skills",
-   "score": 328302,
+   "score": 329112,
    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
    "url": "https://github.com/mattpocock/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ obra/superpowers",
-   "score": 322255,
+   "score": 322962,
    "desc": "An agentic skills framework & software development methodology that works.",
    "url": "https://github.com/obra/superpowers",
    "source": "skills"
   },
   {
    "keyword": "⚡ affaan-m/ECC",
-   "score": 307387,
+   "score": 307942,
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencod",
    "url": "https://github.com/affaan-m/ECC",
    "source": "skills"
   },
   {
    "keyword": "⚡ anthropics/skills",
-   "score": 197795,
+   "score": 198137,
    "desc": "Public repository for Agent Skills",
    "url": "https://github.com/anthropics/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Shubhamsaboo/awesome-llm-apps",
-   "score": 145100,
+   "score": 145235,
    "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "source": "skills"
   },
   {
    "keyword": "⚡ JuliusBrussee/caveman",
-   "score": 121617,
+   "score": 121818,
    "desc": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "skills"
   },
   {
    "keyword": "⚡ addyosmani/agent-skills",
-   "score": 119228,
+   "score": 119431,
    "desc": "Production-grade engineering skills for AI coding agents.",
    "url": "https://github.com/addyosmani/agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Leonxlnx/taste-skill",
-   "score": 118995,
+   "score": 119418,
    "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
    "url": "https://github.com/Leonxlnx/taste-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ tt-a1i/archify",
-   "score": 98122,
+   "score": 98394,
    "desc": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "url": "https://github.com/tt-a1i/archify",
    "source": "skills"
   },
   {
    "keyword": "⚡ bytedance/deer-flow",
-   "score": 85537,
+   "score": 85562,
    "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and ",
    "url": "https://github.com/bytedance/deer-flow",
    "source": "skills"
   },
   {
    "keyword": "⚡ OpenMontageInc/OpenMontage",
-   "score": 81800,
+   "score": 81983,
    "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn",
    "url": "https://github.com/OpenMontageInc/OpenMontage",
    "source": "skills"
   },
   {
    "keyword": "⚡ cloudflare/security-audit-skill",
-   "score": 75933,
+   "score": 76374,
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "url": "https://github.com/cloudflare/security-audit-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ blader/humanizer",
-   "score": 71359,
+   "score": 71725,
    "desc": "Agent skill that removes signs of AI-generated writing from text",
    "url": "https://github.com/blader/humanizer",
    "source": "skills"
   },
   {
    "keyword": "⚡ mvanhorn/last30days-skill",
-   "score": 70960,
+   "score": 71556,
    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
    "url": "https://github.com/mvanhorn/last30days-skill",
    "source": "skills"
   },
   {
    "keyword": "⚡ ayghri/i-have-adhd",
-   "score": 61729,
+   "score": 61830,
    "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "url": "https://github.com/ayghri/i-have-adhd",
    "source": "skills"
   },
   {
    "keyword": "⚡ coreyhaines31/marketingskills",
-   "score": 61562,
+   "score": 61763,
    "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
    "url": "https://github.com/coreyhaines31/marketingskills",
    "source": "skills"
   },
   {
    "keyword": "⚡ hesreallyhim/awesome-claude-code",
-   "score": 58394,
+   "score": 58476,
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
    "source": "skills"
   },
   {
    "keyword": "⚡ K-Dense-AI/scientific-agent-skills",
-   "score": 57872,
+   "score": 57957,
    "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated ski",
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ obsidianmd/obsidian-skills",
-   "score": 53260,
-   "desc": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+   "score": 53327,
+   "desc": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
    "url": "https://github.com/obsidianmd/obsidian-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ sickn33/agentic-awesome-skills",
-   "score": 50011,
+   "score": 50059,
    "desc": "3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan p",
    "url": "https://github.com/sickn33/agentic-awesome-skills",
    "source": "skills"
@@ -663,7 +663,7 @@
    "score": 20
   },
   {
-   "word": "Two Dynamics",
+   "word": "Play",
    "count": 1,
    "sources": [
     "arXiv"
@@ -672,7 +672,7 @@
    "score": 0
   },
   {
-   "word": "Repurposing Video Diffusion Transformers",
+   "word": "Craft",
    "count": 1,
    "sources": [
     "arXiv"
@@ -681,7 +681,7 @@
    "score": 0
   },
   {
-   "word": "Self-Supervised Latent Action Learning",
+   "word": "Designing Engaging Games",
    "count": 1,
    "sources": [
     "arXiv"
@@ -717,15 +717,6 @@
    "score": 0
   },
   {
-   "word": "obra",
-   "count": 1,
-   "sources": [
-    "GitHub"
-   ],
-   "cross": false,
-   "score": 0
-  },
-  {
    "word": "elementalsouls",
    "count": 1,
    "sources": [
@@ -735,7 +726,7 @@
    "score": 0
   },
   {
-   "word": "last30days-skill",
+   "word": "firecrawl",
    "count": 1,
    "sources": [
     "GitHub"
@@ -744,16 +735,16 @@
    "score": 0
   },
   {
-   "word": "Stripo Email Widgets",
+   "word": "autoclip",
    "count": 1,
    "sources": [
-    "PH"
+    "GitHub"
    ],
    "cross": false,
    "score": 0
   },
   {
-   "word": "Gemini 4 Neon",
+   "word": "Mailpipe",
    "count": 1,
    "sources": [
     "PH"
