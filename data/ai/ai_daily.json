@@ -1,110 +1,110 @@
 {
- "date": "2026-11-21",
- "generated_at": "2026-11-21T05:46:09.973973+00:00",
+ "date": "2026-11-22",
+ "generated_at": "2026-11-22T05:16:47.713517+00:00",
  "models": [
   {
    "keyword": "Qwen/Qwen3.8-27B",
-   "score": 20821,
-   "desc": "6,454,419 downloads · 20821 likes",
+   "score": 20823,
+   "desc": "6,298,190 downloads · 20823 likes",
    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
    "source": "huggingface"
   },
   {
    "keyword": "Lightricks/LTX-2.5",
-   "score": 12922,
-   "desc": "2,964,523 downloads · 12922 likes",
+   "score": 12956,
+   "desc": "3,000,544 downloads · 12956 likes",
    "url": "https://huggingface.co/Lightricks/LTX-2.5",
    "source": "huggingface"
   },
   {
-   "keyword": "higurashi-ai/Haru-4B",
-   "score": 5702,
-   "desc": "7,323 downloads · 5702 likes",
-   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+   "keyword": "thinkingmachines/Inkling-2-Mini",
+   "score": 3266,
+   "desc": "7,944 downloads · 3266 likes",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
    "source": "huggingface"
   },
   {
    "keyword": "MiniMaxAI/MiniMax-H3-Image",
-   "score": 1708,
-   "desc": "876,986 downloads · 1708 likes",
+   "score": 1694,
+   "desc": "916,726 downloads · 1694 likes",
    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
    "source": "huggingface"
   },
   {
    "keyword": "harness-hub/Qwen3.8-27B-pi-adapted",
-   "score": 871,
-   "desc": "1,874 downloads · 871 likes",
+   "score": 939,
+   "desc": "2,383 downloads · 939 likes",
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
    "source": "huggingface"
   },
   {
-   "keyword": "thinkingmachines/Inkling-2-Mini",
-   "score": 866,
-   "desc": "136 downloads · 866 likes",
-   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "keyword": "higurashi-ai/Haru-4B",
+   "score": 846,
+   "desc": "8,120 downloads · 846 likes",
+   "url": "https://huggingface.co/higurashi-ai/Haru-4B",
    "source": "huggingface"
   },
   {
    "keyword": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-   "score": 770,
-   "desc": "309,394 downloads · 770 likes",
+   "score": 744,
+   "desc": "339,903 downloads · 744 likes",
    "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "source": "huggingface"
+  },
+  {
+   "keyword": "unsloth/Inkling-2-Mini-GGUF",
+   "score": 670,
+   "desc": "238,152 downloads · 670 likes",
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
    "source": "huggingface"
   },
   {
    "keyword": "tencent/Hy4-flash",
    "score": 554,
-   "desc": "3,949 downloads · 554 likes",
+   "desc": "5,588 downloads · 554 likes",
    "url": "https://huggingface.co/tencent/Hy4-flash",
    "source": "huggingface"
   },
   {
    "keyword": "inworld/voice-isolator",
-   "score": 510,
-   "desc": "0 downloads · 510 likes",
+   "score": 529,
+   "desc": "0 downloads · 529 likes",
    "url": "https://huggingface.co/inworld/voice-isolator",
    "source": "huggingface"
   },
   {
    "keyword": "apple/FastFrames-L",
-   "score": 492,
-   "desc": "0 downloads · 492 likes",
+   "score": 498,
+   "desc": "0 downloads · 498 likes",
    "url": "https://huggingface.co/apple/FastFrames-L",
    "source": "huggingface"
   },
   {
    "keyword": "sensenova/SenseNova-Loop-9B",
-   "score": 453,
-   "desc": "1,631 downloads · 453 likes",
+   "score": 466,
+   "desc": "1,745 downloads · 466 likes",
    "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
-   "source": "huggingface"
-  },
-  {
-   "keyword": "Sentinel7/h3",
-   "score": 416,
-   "desc": "0 downloads · 416 likes",
-   "url": "https://huggingface.co/Sentinel7/h3",
    "source": "huggingface"
   }
  ],
  "datasets": [
   {
    "keyword": "📊 nvidia/simready-assets",
-   "score": 1693,
+   "score": 1720,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/nvidia/simready-assets",
    "source": "huggingface"
   },
   {
    "keyword": "📊 Vyber07/cyber-security",
-   "score": 1329,
+   "score": 1375,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/Vyber07/cyber-security",
    "source": "huggingface"
   },
   {
    "keyword": "📊 Angais/pixel-art-atlas-1.4m",
-   "score": 652,
+   "score": 664,
    "desc": "Trending Dataset",
    "url": "https://huggingface.co/datasets/Angais/pixel-art-atlas-1.4m",
    "source": "huggingface"
@@ -199,10 +199,38 @@
  "robotics": [],
  "products": [
   {
-   "keyword": "Mailpipe",
+   "keyword": "SuperMailbox",
    "score": 0,
    "desc": "",
-   "url": "https://www.producthunt.com/products/mailpipe-2",
+   "url": "https://www.producthunt.com/products/supermailbox",
+   "source": "producthunt"
+  },
+  {
+   "keyword": "AI Context Flow MCP",
+   "score": 0,
+   "desc": "",
+   "url": "https://www.producthunt.com/products/ai-context-flow",
+   "source": "producthunt"
+  },
+  {
+   "keyword": "Exa Websets V2",
+   "score": 0,
+   "desc": "",
+   "url": "https://www.producthunt.com/products/exa-ai",
+   "source": "producthunt"
+  },
+  {
+   "keyword": "Glassmail",
+   "score": 0,
+   "desc": "",
+   "url": "https://www.producthunt.com/products/glassmail",
+   "source": "producthunt"
+  },
+  {
+   "keyword": "AlterContacts",
+   "score": 0,
+   "desc": "",
+   "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
    "source": "producthunt"
   }
  ],
@@ -281,70 +309,70 @@
  "repos": [
   {
    "keyword": "sponsors/elementalsouls",
-   "score": 1622,
+   "score": 1803,
    "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-repo",
    "url": "https://github.com/sponsors/elementalsouls",
    "source": "github"
   },
   {
    "keyword": "firecrawl/firecrawl",
-   "score": 1241,
+   "score": 1006,
    "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
    "url": "https://github.com/firecrawl/firecrawl",
    "source": "github"
   },
   {
-   "keyword": "zhouxiaoka/autoclip",
-   "score": 979,
-   "desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source A",
-   "url": "https://github.com/zhouxiaoka/autoclip",
-   "source": "github"
-  },
-  {
    "keyword": "sponsors/obra",
-   "score": 890,
+   "score": 883,
    "desc": "An agentic skills framework & software development methodology that works.",
    "url": "https://github.com/sponsors/obra",
    "source": "github"
   },
   {
-   "keyword": "jingyaogong/minimind",
-   "score": 847,
-   "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-   "url": "https://github.com/jingyaogong/minimind",
-   "source": "github"
-  },
-  {
    "keyword": "HKUDS/CLI-Anything",
-   "score": 773,
+   "score": 769,
    "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
    "url": "https://github.com/HKUDS/CLI-Anything",
    "source": "github"
   },
   {
-   "keyword": "mvanhorn/last30days-skill",
-   "score": 681,
-   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gro",
-   "url": "https://github.com/mvanhorn/last30days-skill",
-   "source": "github"
-  },
-  {
-   "keyword": "sponsors/toeverything",
-   "score": 676,
-   "desc": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, s",
-   "url": "https://github.com/sponsors/toeverything",
+   "keyword": "zhouxiaoka/autoclip",
+   "score": 683,
+   "desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source A",
+   "url": "https://github.com/zhouxiaoka/autoclip",
    "source": "github"
   },
   {
    "keyword": "sponsors/cathrynlavery",
-   "score": 636,
+   "score": 583,
    "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types.",
    "url": "https://github.com/sponsors/cathrynlavery",
    "source": "github"
   },
   {
+   "keyword": "sponsors/toeverything",
+   "score": 574,
+   "desc": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, s",
+   "url": "https://github.com/sponsors/toeverything",
+   "source": "github"
+  },
+  {
+   "keyword": "mvanhorn/last30days-skill",
+   "score": 560,
+   "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a gro",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "source": "github"
+  },
+  {
+   "keyword": "jingyaogong/minimind",
+   "score": 488,
+   "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+   "url": "https://github.com/jingyaogong/minimind",
+   "source": "github"
+  },
+  {
    "keyword": "Tracer-Cloud/opensre",
-   "score": 466,
+   "score": 450,
    "desc": "The open-source agent for CI/CD reliability.",
    "url": "https://github.com/Tracer-Cloud/opensre",
    "source": "github"
@@ -436,13 +464,6 @@
    "source": "mcp"
   },
   {
-   "keyword": "🔌 United States Weather",
-   "score": 17177,
-   "desc": "Provide real-time and forecast weather information for locations in the United States using natural language queries. Access current conditions, multi",
-   "url": "https://www.weather.gov",
-   "source": "mcp"
-  },
-  {
    "keyword": "🔌 SubwayInfo NYC",
    "score": 16873,
    "desc": "Real-time NYC subway information. Check train status, view service alerts, and get station-level arrival times.",
@@ -490,145 +511,152 @@
    "desc": "Free automated privacy grades (A+ to F) for 900+ SaaS tools, plus GDPR, HIPAA, PCI DSS, SOC 2, CCPA, and ADA compliance checklists with source citatio",
    "url": "https://compliancecheckup.org/",
    "source": "mcp"
+  },
+  {
+   "keyword": "🔌 menjometre",
+   "score": 9534,
+   "desc": "Menjometre is an independent observatory of Catalan public spending. This MCP server gives any LLM client read-only access to the full dataset and the",
+   "url": "https://menjometre.cat",
+   "source": "mcp"
   }
  ],
  "skills": [
   {
    "keyword": "⚡ mattpocock/skills",
-   "score": 329112,
+   "score": 329870,
    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
    "url": "https://github.com/mattpocock/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ obra/superpowers",
-   "score": 322962,
+   "score": 323841,
    "desc": "An agentic skills framework & software development methodology that works.",
    "url": "https://github.com/obra/superpowers",
    "source": "skills"
   },
   {
    "keyword": "⚡ affaan-m/ECC",
-   "score": 307942,
+   "score": 308465,
    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencod",
    "url": "https://github.com/affaan-m/ECC",
    "source": "skills"
   },
   {
    "keyword": "⚡ anthropics/skills",
-   "score": 198137,
+   "score": 198580,
    "desc": "Public repository for Agent Skills",
    "url": "https://github.com/anthropics/skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ Shubhamsaboo/awesome-llm-apps",
-   "score": 145235,
+   "score": 145331,
    "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "source": "skills"
   },
   {
    "keyword": "⚡ JuliusBrussee/caveman",
-   "score": 121818,
+   "score": 122010,
    "desc": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "skills"
   },
   {
-   "keyword": "⚡ addyosmani/agent-skills",
-   "score": 119431,
-   "desc": "Production-grade engineering skills for AI coding agents.",
-   "url": "https://github.com/addyosmani/agent-skills",
-   "source": "skills"
-  },
-  {
    "keyword": "⚡ Leonxlnx/taste-skill",
-   "score": 119418,
+   "score": 119800,
    "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
    "url": "https://github.com/Leonxlnx/taste-skill",
    "source": "skills"
   },
   {
+   "keyword": "⚡ addyosmani/agent-skills",
+   "score": 119620,
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "source": "skills"
+  },
+  {
    "keyword": "⚡ tt-a1i/archify",
-   "score": 98394,
+   "score": 98620,
    "desc": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "url": "https://github.com/tt-a1i/archify",
    "source": "skills"
   },
   {
    "keyword": "⚡ bytedance/deer-flow",
-   "score": 85562,
+   "score": 85587,
    "desc": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and ",
    "url": "https://github.com/bytedance/deer-flow",
    "source": "skills"
   },
   {
    "keyword": "⚡ OpenMontageInc/OpenMontage",
-   "score": 81983,
+   "score": 82179,
    "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn",
    "url": "https://github.com/OpenMontageInc/OpenMontage",
    "source": "skills"
   },
   {
    "keyword": "⚡ cloudflare/security-audit-skill",
-   "score": 76374,
+   "score": 76757,
    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
    "url": "https://github.com/cloudflare/security-audit-skill",
    "source": "skills"
   },
   {
-   "keyword": "⚡ blader/humanizer",
-   "score": 71725,
-   "desc": "Agent skill that removes signs of AI-generated writing from text",
-   "url": "https://github.com/blader/humanizer",
-   "source": "skills"
-  },
-  {
    "keyword": "⚡ mvanhorn/last30days-skill",
-   "score": 71556,
+   "score": 72133,
    "desc": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
    "url": "https://github.com/mvanhorn/last30days-skill",
    "source": "skills"
   },
   {
-   "keyword": "⚡ ayghri/i-have-adhd",
-   "score": 61830,
-   "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-   "url": "https://github.com/ayghri/i-have-adhd",
+   "keyword": "⚡ blader/humanizer",
+   "score": 72044,
+   "desc": "Agent skill that removes signs of AI-generated writing from text",
+   "url": "https://github.com/blader/humanizer",
    "source": "skills"
   },
   {
    "keyword": "⚡ coreyhaines31/marketingskills",
-   "score": 61763,
+   "score": 61915,
    "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
    "url": "https://github.com/coreyhaines31/marketingskills",
    "source": "skills"
   },
   {
+   "keyword": "⚡ ayghri/i-have-adhd",
+   "score": 61906,
+   "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "source": "skills"
+  },
+  {
    "keyword": "⚡ hesreallyhim/awesome-claude-code",
-   "score": 58476,
+   "score": 58544,
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from th",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
    "source": "skills"
   },
   {
    "keyword": "⚡ K-Dense-AI/scientific-agent-skills",
-   "score": 57957,
+   "score": 58045,
    "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated ski",
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ obsidianmd/obsidian-skills",
-   "score": 53327,
+   "score": 53402,
    "desc": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
    "url": "https://github.com/obsidianmd/obsidian-skills",
    "source": "skills"
   },
   {
    "keyword": "⚡ sickn33/agentic-awesome-skills",
-   "score": 50059,
+   "score": 50112,
    "desc": "3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan p",
    "url": "https://github.com/sickn33/agentic-awesome-skills",
    "source": "skills"
@@ -654,7 +682,7 @@
    "score": 20
   },
   {
-   "word": "Haru-4B",
+   "word": "Inkling-2-Mini",
    "count": 1,
    "sources": [
     "HF"
@@ -735,7 +763,7 @@
    "score": 0
   },
   {
-   "word": "autoclip",
+   "word": "obra",
    "count": 1,
    "sources": [
     "GitHub"
@@ -744,7 +772,25 @@
    "score": 0
   },
   {
-   "word": "Mailpipe",
+   "word": "SuperMailbox",
+   "count": 1,
+   "sources": [
+    "PH"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
+   "word": "AI Context Flow MCP",
+   "count": 1,
+   "sources": [
+    "PH"
+   ],
+   "cross": false,
+   "score": 0
+  },
+  {
+   "word": "Exa Websets V2",
    "count": 1,
    "sources": [
     "PH"
